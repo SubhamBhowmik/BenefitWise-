@@ -1,0 +1,260 @@
+/* =================================== */
+/*  Basic Style 
+/* =================================== */
+::-moz-selection {
+    /* Code for Firefox */
+    background-color: #7c32ff;
+    color: #fff; }
+  
+  ::selection {
+    background-color: #7c32ff;
+    color: #fff; }
+  
+  ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #777777;
+    font-weight: 300; }
+  
+  :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #777777;
+    opacity: 1;
+    font-weight: 300; }
+  
+  ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #777777;
+    opacity: 1;
+    font-weight: 300; }
+  
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #777777;
+    font-weight: 300; }
+  
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #777777;
+    font-weight: 300; }
+  
+  body {
+    color: #828bb2;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative; }
+  
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  
+  select {
+    display: block; }
+  
+  figure {
+    margin: 0; }
+  
+  a {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+  
+  iframe {
+    border: 0; }
+  
+  a,
+  a:focus,
+  a:hover {
+    text-decoration: none;
+    outline: 0; }
+  
+  .btn.active.focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn.focus:active,
+  .btn:active:focus,
+  .btn:focus {
+    text-decoration: none;
+    outline: 0; }
+  
+  .card-panel {
+    margin: 0;
+    padding: 60px; }
+  
+  .btn i,
+  .btn-large i,
+  .btn-floating i,
+  .btn-large i,
+  .btn-flat i {
+    font-size: 1em;
+    line-height: inherit; }
+  
+  .gray-bg {
+    background: #f9f9ff; }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif;
+    color: #222222;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 900; }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    color: #222222; }
+  
+  h1,
+  .h1 {
+    font-size: 36px; }
+  
+  h2,
+  .h2 {
+    font-size: 30px; }
+  
+  h3,
+  .h3 {
+    font-size: 24px; }
+  
+  h4,
+  .h4 {
+    font-size: 18px; }
+  
+  h5,
+  .h5 {
+    font-size: 16px; }
+  
+  h6,
+  .h6 {
+    font-size: 14px;
+    color: #222222; }
+  
+  td,
+  th {
+    border-radius: 0px; }
+
+
+
+/* =================================== */
+/* ABOUT US
+/* =================================== */
+
+.image-header{
+  width: 100%;
+}
+
+.but-con{
+  size: 30;
+  margin-top:-250px;
+  margin-left: 370px;
+  margin-bottom: 250px;
+}
+
+.bg1{
+  background: url("../img/about-banner-1.png");
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: center center;
+  width: 100%;
+}
+
+.bg2{
+  background-color: #ade6fe;
+}
+
+.left-text{
+  width:50%;
+  padding-left: 60px;
+}
+
+.right-text{
+  position:absolute;
+  padding-left:30%; 
+  padding-right: 60px;
+  bottom:100px;
+  
+}
+.course-class{
+  background: rgb(187, 190, 201);
+  border:rgb(187, 190, 201);
+  color: #222222;
+  text-align: center;
+}
+
+.oth-class{
+  background: white;
+  border:white;
+  color: #222222;
+  text-align: center;
+  height: 600px;
+}
+
+.course-class:hover {
+  background: rgb(0, 89, 255);
+  border:rgb(187, 190, 201);
+  color: #f9f9ff;
+}
+
+.text-body{
+  color: #363636;
+  size:14;
+}
+
+.middletext{
+  padding: left 300px right 300px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.icon-sample{
+  color:rgb(0, 183, 255);
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.faqtext {
+  color: rgb(185, 88, 88); 
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-weight: 700; 
+  line-height: 48px; 
+  margin: 0 0 24px; 
+  padding: 0 30px; 
+  text-align: center; 
+  text-transform: uppercase; 
+}
+
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+}

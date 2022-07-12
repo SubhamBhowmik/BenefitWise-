@@ -1,0 +1,147 @@
+.masthead {
+    background: rgba(253, 150, 68, 0.65)url('../../public//images//banner/1.svg') center center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+  }
+.banner-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    /* background-color: #48657c; */
+
+}
+
+.banner-grid-container>div {
+    /* background-color: rgba(247, 247, 247, 0.8); */
+    width: 100%;
+
+}
+
+
+
+.banner-item1 {
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+
+.banner-item1 .left h1 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-style: normal;
+ 
+}
+.banner-item2 .img-right{
+padding-left: 2rem ;
+}
+.cz{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.banner-item1 .left p {
+    font-size: 18px;
+    margin-bottom: 0px;
+
+
+
+}
+.banner-item1 .aws-wrap{
+    margin-top: 2rem;
+   display: flex;
+}
+.banner-item1 .aws-wrap .rec{
+ margin-right: 15px;
+}
+.banner-item1 .aws-wrap .by{
+ margin-top: 5px;
+}
+.banner-item1 .aws-wrap img{
+    margin-top: 5px;
+width: auto;
+height: 50px;
+}
+.banner-item1 .aws-active{
+    margin-top: 0px;
+
+}
+.banner-item1 .aws-wrap img{
+    margin-top: 5px;
+width: auto;
+height: 50px;
+}
+#home-banner .last{
+    margin-top: 1rem;
+}
+.ml-free-trial{
+ margin-left: 2rem;
+}
+@media (max-width:768px) {
+    .banner-item1 .aws-wrap{
+        margin-top: .3rem;
+       display: flex;
+    }
+    .masthead {
+        height:31.5vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .banner-grid-container .banner-item2 img {
+       
+        width: 155px;
+        height: 130px;
+    }
+    .banner-item2 .img-right{
+        padding-top: 23px;
+        width: 150px;
+        padding-left: 0rem ;
+        }
+    .banner-item1 .aws-wrap img{
+        margin-top: 5px;
+    width: auto;
+    height: 28px;
+    }
+    .banner-item1 .aws-wrap .rec{
+        margin-right: 5px;
+       }
+       .banner-item1 .aws-active{
+        margin-top: 5px;
+    
+    }
+    .cz{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .ml-free-trial{
+        margin-left: .5rem;
+       }
+}
+
+
+@media (max-width:768px) {
+    .banner-item1 .left h1 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+    .banner-item1 .left p {
+       
+      
+        font-size: 8px;
+        margin-bottom: 1px;
+    
+    
+    }
+    .banner-item1 {
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+
+   
+
+}

@@ -1,0 +1,118 @@
+.card-contact {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 813px;
+    padding-left: 61px;
+    padding-right: 61px;
+    padding-top: 35px;
+    padding-bottom: 54px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 6px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.mt-57 {
+    margin-top: 20px;
+}
+
+.sch-btn-x {
+    cursor: pointer;
+    margin-top: 40px;
+    width: 312px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(128, 0, 128, 0.91);
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+.req h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    /* identical to box height, or 171% */
+    
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.73);
+    
+}
+.req{
+    padding-bottom: 20px;
+}
+@media (max-width:768px) {
+    .card-contact {
+        box-sizing: border-box;
+        position: absolute;
+        width: 308px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        box-shadow: 6px 4px 20px rgb(0 0 0 / 25%);
+        border-radius: 15px;
+    }
+    .req {
+        margin-top: 13px;
+    }
+    .req h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.73);
+    }
+
+    .mt-57 {
+        margin-top: 10px;
+    }
+
+    .muo h2 {
+        font-family: '';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.73);
+    }
+
+    .sch-btn-x {
+        cursor: pointer;
+        margin-top: 40px;
+        width: 129px;
+        height: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(128, 0, 128, 0.91);
+        border-radius: 15px;
+    }
+
+    .sch-btn-x h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        margin-bottom: 0px;
+        line-height: 12px;
+        /* identical to box height, or 500% */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    #c-form input{
+        height: 25px !important;
+    }
+}

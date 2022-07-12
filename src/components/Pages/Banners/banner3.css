@@ -1,0 +1,22 @@
+#subham .rec-wrap{
+    margin-top: 48px;
+    display: flex;
+    gap: 12px;
+}
+#subham .rec-wrap .fa-4x {
+    font-size: 24px;
+}
+.aws {
+
+    color: rgb(255, 235, 192);
+     font-size: 23px;
+     margin-bottom: 0px;
+  }
+  .banner-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* top: 20px; */
+    background-image: linear-gradient(162deg, rgb(124 89 154 / 61%)57%, transparent 50%);
+    box-shadow: 0 3px 7px -3px #000000;
+}

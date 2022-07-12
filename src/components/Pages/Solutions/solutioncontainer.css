@@ -1,0 +1,288 @@
+.bg-solution {
+  background: url('../../../../public/images/solution/new-bg.svg') center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+
+
+}
+
+.solution-overlay {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(18deg, rgba(45, 79, 132, 0.605)50%, transparent 50%);
+  box-shadow: 0 3px 7px -3px #000000;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.our-off h1 {
+  font-size: 52px;
+}
+
+.first h1 {
+  font-size: 42px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.second {
+  margin-top: 30px;
+}
+
+.second p {
+
+  font-size: 18px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+
+  margin-bottom: 3px;
+}
+
+.third {
+  margin-top: 10px;
+}
+
+
+.solution-card {
+  width: "590px"
+}
+
+.solution-card {
+  width: 639px;
+  height: 300px;
+  background: #FFFFFF;
+
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.sol-card-wrapper {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.sol-card-wrapper>.sol-left {
+  margin-top: 20px;
+  width: 50%;
+  text-align: left;
+
+
+}
+
+.sol-card-wrapper p {
+  margin-top: 1rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sol-card-wrapper .sol-right {
+  padding: 2rem 2rem;
+  margin-top: 20px;
+  width: 50%;
+  text-align: left;
+  padding: 1rem 1rem;
+
+}
+
+.sol-card-wrapper>h2 {
+  margin-left: 20px;
+}
+
+.sol-header {
+  padding: 75px;
+
+}
+
+
+
+.sol-header p {
+
+  color: #FFFFFF;
+}
+
+.sol-header button {
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  width: 15.2rem;
+  height: 3.3rem;
+  background-color: rgba(253, 150, 68, 0.96);
+  color: #FFFFFF;
+}
+
+
+.sol-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.sol-grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: auto;
+
+
+}
+.solution-card .first h2 {
+
+  margin-bottom: 1px;
+}
+.solution-card .first {
+
+  height: 6.5rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+#solutions .p-text p {
+  font-size: 18px;
+}
+
+#solutions .p-text {
+  padding: 10px;
+}
+
+.kylo{
+
+    margin-top: 162px;
+    text-align: justify;
+    margin-bottom: 1rem;
+    padding-right: 92px;
+
+}
+.mt-71{
+  margin-top: 69px;
+  margin-bottom: 58px;
+}
+/* 😒😒😒😒😒😒😒😒😒 */
+@media (max-width:768px) {
+  .mt-71{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .bg-solution {
+    background: url('../../../../public/images/solution/bg1.svg') center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vh;
+    width: 100%;
+
+
+  }
+
+  .second {
+    margin-top: 30px;
+  }
+
+  .solution-overlay {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(23.8deg, rgba(45, 79, 132, 0.605)50%, transparent 50%);
+    box-shadow: 0 3px 7px -3px #000000;
+  }
+
+  .sol-header .header-line {
+    margin-top: 0 rem;
+  }
+
+  .sol-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+
+  .first h1 {
+    font-size: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  .sol-grid-container .p-text p{
+    font-size: 8px;
+    line-height: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  .sol-header {
+    padding: 2rem 2rem;
+
+  }
+
+  .second p {
+line-height: 9px;
+    font-size: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+
+    margin-bottom: 0px;
+  }
+
+  .sol-header button {
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    width: 6.2rem;
+    height: 2rem;
+    background-color: rgba(253, 150, 68, 0.96);
+    color: #FFFFFF;
+  }
+
+  .third h4 {
+    font-size: 13px;
+  }
+
+  .solution-card {
+    width: 155px;
+    height: 140px;
+    background: #FFFFFF;
+
+
+    border-radius: 10px;
+  }
+
+  #solutions .p-text p {
+    font-size: 8px;
+    text-align: justify;
+  }
+
+  .solution-card .first {
+    height: 3rem;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .solution-card img {
+    width: 120px;
+  }
+
+  .solution-card .first h2 {
+    font-size: 12px;
+    margin-bottom: 1px;
+  }
+
+  .our-off h1 {
+    font-size: 18px;
+  }
+
+}

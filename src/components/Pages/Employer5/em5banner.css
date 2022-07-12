@@ -1,0 +1,195 @@
+.em-bg5 {
+    position: relative;
+    background: url('../../../../public/images/employer5/bg.svg') center/100% no-repeat;
+    background-size: cover;
+
+    object-fit: cover;
+}
+
+#em2 .pri-header-right-x {
+    padding-left: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#em2 .pri-header-right-x .text-cont h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    color: #000000;
+}
+
+#em2 .pri-header-right-x .s-text {
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #A5A5A5;
+}
+
+#em2 .child-img-x {
+    position: absolute;
+    bottom: 142.57px;
+    left: 25px;
+}
+
+#em2 .child-img-2-x {
+    position: absolute;
+    bottom: 48.57px;
+    left: 51px;
+}
+
+#em2 .child-img-3-x {
+    position: absolute;
+    bottom: 23.57px;
+    left: 149px;
+}
+
+.input--box input {
+    box-sizing: border-box;
+
+
+    width: 424px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.76);
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .em-bg5 {
+        position: relative;
+        background:url('../../../../public/images/employer5/bg.svg') center/100% no-repeat;
+     
+        background-size: cover;
+        object-fit: cover;
+    }
+    #em2 .pri-header-right-x {
+        /* padding-top: 87px; */
+        padding-left: 13px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    #em2 .pri-header-right-x .text-cont h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        margin-bottom: 0px;
+        color: #000000;
+    }
+
+    #em2 .pri-header-right-x .s-text {
+        font-family: 'PT Sans Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        color: #A5A5A5;
+    }
+
+    #em2 .child-img-2-x {
+        position: absolute;
+        bottom: 12.57px;
+        left: 13px;
+        height: 20px;
+    }
+
+    #em2 .child-img-x {
+        position: absolute;
+        bottom: 34.57px;
+        left: 5px;
+        height: 15px;
+    }
+
+    #em2 .child-img-3-x {
+        position: absolute;
+        bottom: 2.57px;
+        left: 37px;
+        height: 15px;
+    }
+
+    .left-table {
+        width: 239px;
+        height: 430px;
+        background: rgba(253, 150, 68, 0.07);
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 10px;
+    }
+
+    .create-cmp {
+        margin-top: 20px;
+        box-sizing: border-box;
+        color: white;
+        width: 201px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(128, 0, 128, 0.91);
+        border-radius: 25px;
+    }
+
+    .create-cmp h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 0px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .input--box h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        margin-bottom: 10px;
+        color: rgba(0, 0, 0, 0.85);
+    }
+
+    .input--box {
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+
+    .input--box input {
+        border-radius: 10px;
+        width: 163px;
+        height: 25px;
+    }
+    .mt-70 {
+        margin-top: 28px;
+    }
+    .input-box input {
+        box-sizing: border-box;
+        width: 20px;
+        height: 12px;
+        border: 2px solid rgba(0, 0, 0, 0.68);
+        border-radius: 6.20144px;
+    }
+    .last-input-wrap {
+        padding-top: 23px;
+        padding-left: 37px;
+        padding-right: 10px;
+        display: flex;
+        gap: 6px;
+    }
+    .input-box h4 {
+        padding-bottom: 2px;
+        font-family: 'PT Sans Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        color: rgba(0, 0, 0, 0.94);
+    }
+}

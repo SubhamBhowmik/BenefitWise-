@@ -1,0 +1,126 @@
+.whole-section {
+    margin-top: 67px;
+}
+
+#homecard .sol- {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+  
+    margin-bottom: 67px;
+}
+#homecard .sol- h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+
+
+
+    color: rgba(128, 0, 128, 0.92);
+}
+
+.third-wrap {
+    margin-top: 95px;
+    display: flex;
+    justify-content: left;
+    padding-left: 33px;
+}
+
+.new-card- {
+    box-sizing: border-box;
+
+
+    width: 567px;
+    height: 478px;
+
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.new-card- .illa {
+    display: flex;
+    justify-content: center;
+}
+
+.new-card- .illa2 {
+    padding-left: 32px;
+    padding-top: 26px;
+    padding-right: 62.57px;
+}
+
+.new-card- .illa2 h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.new-card- .illa2 p {
+    margin-top: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    /* or 182% */
+
+
+    color: rgba(37, 35, 35, 0.82);
+}
+
+.new-more-wrap {
+    padding-right: 37px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: right;
+}
+
+.new-more {
+    box-sizing: border-box;
+    cursor: pointer;
+
+    position: absolute;
+    width: 116px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 3px solid rgba(179, 24, 14, 0.92);
+    border-radius: 20px;
+}
+
+.new-more h2 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+
+
+    color: rgba(0, 0, 0, 0.78);
+}
+
+.new-card-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 169px
+}
+
+.new-height {
+    height: 108px;
+}
+.mt-mb-89{
+    margin-top: 89px;
+    margin-bottom: 89px;
+}

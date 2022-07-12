@@ -1,0 +1,209 @@
+
+.left-box-shadow {
+
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  #order .order-invite-btn {
+    margin-top: 26px;
+    margin-bottom: 49px;
+    box-sizing: border-box;
+    width: 221px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background: rgba(128, 0, 128, 0.9);
+    border: 1px solid rgba(0, 128, 128, 0.9);
+    border-radius: 20px;
+  }
+  .raw{
+    padding-left: 99px;
+    padding-right: 25px;
+    height: 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cz-box {
+
+    width: 117px;
+  padding-left: 19px;
+    font-weight: 700;
+    color: rgba(252, 163, 17, 0.97);
+    background: rgba(128, 0, 128, 0.07);
+    border-radius: 20px;
+  }
+  .kolo{
+    display: flex;
+    justify-content: center;
+    
+  }
+  #order .micro-text{
+    font-size: 8px;
+  }
+@media (max-width:768px) {
+    .left-box-shadow {
+        margin-left: 10px;
+        background: #FFFFFF;
+        box-shadow: -4px -4px 4px 4px rgb(0 0 0/ 25%);
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+    .myntra-tag {
+        margin-top: 10px;
+        height: 10px;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+    
+    
+      }
+      .order-more-btn {
+        box-sizing: border-box;
+        width: 45px;
+        height: 20px;
+        font-size: 11px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 7px;
+    }
+    #order .order-rounded-box {
+        margin-top: 20px;
+        box-sizing: border-box;
+        width: 240px;
+        height: 53px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 12px;
+    }
+    #order .text {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    #order .order-invite-btn {
+        margin-top: 26px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        width: 167px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 47px;
+        background: rgba(128, 0, 128, 0.9);
+        border: 1px solid rgba(0, 128, 128, 0.9);
+        border-radius: 12px;
+    }
+    #order .rounded-eb-box {
+        box-sizing: border-box;
+        width: 239px;
+        background: #FFFFFF;
+        border: 1px solid rgba(128, 0, 128, 0.81);
+        border-radius: 10px;
+    }
+    .order-redemtion-box {
+        margin-bottom: 30px;
+        margin-top: 33px;
+    }
+    .order-redemtion-box {
+        box-sizing: border-box;
+        height: 40px;
+        width: 200px;
+    
+    
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.29);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+      }
+    
+      .order-table-box {
+        box-sizing: border-box;
+        width: 22rem;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        box-shadow: inset 4px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 10px;
+    }
+    .table-header-box {
+        width: 16rem;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 10px;
+    }
+    .table-header-box {
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 10px 10px 10px 0px;
+        width: 17rem;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: #FFFFFF;
+        box-shadow: -2px 2px 2px 2px rgb(0 0 0 / 25%);
+        border-radius: 10px;
+    }
+    .f {
+        padding-left: 10px;
+        font-size: 8px;
+        padding-top: 7px;
+    }
+    .s{
+        padding-left: 14px;
+        font-size: 8px;
+        padding-top: 7px;
+    }
+    .ur-price{
+        padding-left: 7px;
+        font-size: 8px;
+        padding-top: 7px;
+        padding-right: 17px;
+    }
+    .raw {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .raw .rs-500 {
+        padding-left: 20px;
+    }
+    .cz-box {
+        width: 59px;
+        padding-left: 7px;
+        font-weight: 700;
+        color: rgba(252, 163, 17, 0.97);
+        background: rgba(128, 0, 128, 0.07);
+        border-radius: 20px;
+    }
+    .ou {
+        /* width: 5px; */
+        width: 51px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(128, 0, 128, 0.92);
+        border-radius: 5.30983px;
+    }
+    .ou h3 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+    }
+    #order .micro-text{
+      font-size: 5px;
+    }
+}

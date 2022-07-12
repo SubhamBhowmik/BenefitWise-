@@ -1,0 +1,150 @@
+.graycard-wrapper {
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+
+
+
+    grid-template-areas:
+        "content1 content2 content3"
+        "content4 content5 content6";
+}
+
+.gray-grid-container {
+    margin-top: 75px;
+    margin-bottom: 72px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 52px;
+    /* background-color: #2196F3; */
+
+}
+
+.gray-grid-container>div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    font-size: 30px;
+
+}
+
+.gray-item2 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.gray-item5 {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+#c1 {
+    grid-area: "c1";
+}
+
+#c2 {
+    grid-area: "c2";
+}
+
+#c1 {
+    grid-area: "c3";
+}
+
+#c1 {
+    grid-area: "c4";
+}
+
+#c1 {
+    grid-area: "c5";
+}
+
+#c1 {
+    grid-area: "c6";
+}
+
+.mt-benefit {
+    margin-top: 5rem;
+}
+
+.one-pad {
+    padding-left: 10px;
+}
+.bene {
+    margin-top: 55px;
+    margin-bottom: 21px;
+}
+.bene h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 28px;
+/* or 61% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+opacity: 0.8;
+}
+
+#gray- .gray-card- {
+    width: 325px;
+    padding-top: 10px;
+    height: 281px;
+    padding-left: 24px;
+    padding-right: 10px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+}
+#gray- .gray-card- .first{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 5px;
+}
+#gray- .gray-card- .second-{
+    display: flex;
+    justify-content: center;
+}
+#gray- .gray-card- .second- h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    color: #000000;
+}
+#gray- .gray-card- p{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: rgba(0, 0, 0, 0.93);
+ }
+
+@media(max-width:768px) {
+    .graycard-wrapper {
+        margin-top: 150px;
+        margin-bottom: 200px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        height: 100vh;
+        grid-gap: "1rem";
+        grid-template-areas:
+            "c1 c2"
+            "c3 c4"
+            "c5 c6";
+    }
+}

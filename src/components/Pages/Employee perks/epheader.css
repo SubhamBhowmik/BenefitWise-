@@ -1,0 +1,132 @@
+/* .ep-left {
+    padding-left: 5rem;
+    padding-top: 7rem;
+
+}
+.ep-left .ep-text{
+    margin-top: 3rem;
+}
+.ep-left .ep-text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 5px
+    /* or 145% */
+/* ;
+
+    color: #FFFFFF; 
+}
+.ep-left .fa-4x {
+    font-size: 5rem !important;
+}
+.ep-right-img{
+    margin-right: 3rem;
+}
+
+@media (max-width:768px) {
+    .ep-left {
+        padding-left: 2rem;
+        padding-top: 2rem;
+    
+    }
+    .ep-left .ep-text h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 5px
+        /* or 145% 
+        ;
+    
+        color: #FFFFFF;
+    }
+    .ep-left .ep-text{
+        margin-top: 1rem;
+    }
+    .ep-left .fa-4x {
+        font-size: 3rem !important;
+    }
+    .ep-right-img{
+        margin-right: 1rem;
+    }
+}*/
+
+
+
+.ep-bg {
+
+
+    background: url('../../../../public/images/emloyeeperks/bg-banner.png') ;
+
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 105vh;
+}
+
+.ep-text  {
+    margin-top: 20px;
+}
+.ep-text h1 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 80px;
+    /* or 145% */
+
+
+
+    color: #FFFFFF;
+
+}
+.ep-new-img{
+    height: auto;
+    width: auto;
+}
+
+
+/* 😒😒😒😒😒😒😒😒😒 */
+@media (max-width:768px) {
+    .ep-bg {
+
+
+        background: url('../../../../public/images/emloyeeperks/vg.svg') center/100% no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        height:38vh
+    
+    
+    } 
+    /* .ep-text h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+         line-height: 0px; 
+        line-height: 18px; 
+        color: #FFFFFF;
+    } */
+    .ep-text h1 {
+        margin-bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 0px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+    .ep-new-img{
+        height: 167px;
+        left: 377px;
+    }
+    .ep-bg .fa-4x {
+        margin-top: 12px;
+        font-size: 2em;
+    }
+    
+ 
+  
+}

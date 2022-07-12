@@ -1,0 +1,26 @@
+.fw-grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 82px;
+  
+    padding: 10px;
+  }
+  
+  .fw-grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+  
+  }
+  .cont-mt{
+    margin-top: 181px;
+  }
+  @media (max-width:768px) {
+    .fw-grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 17px;
+      padding: 10px;
+  }
+  .cont-mt{
+    margin-top: 20px;
+  }
+  }

@@ -1,0 +1,168 @@
+#fwcard .fw-card-box {
+    box-sizing: border-box;
+
+
+    width: 548px;
+    height: 501px;
+
+
+    background: #FFFFFF;
+    border: 7px solid rgba(253, 150, 68, 0.9);
+    border-radius: 20px;
+}
+
+#fwcard .fw-card-box .expire-card {
+
+    width: 148px;
+    height: 78px;
+
+
+    background: rgba(128, 0, 128, 0.07);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding-left: 27px;
+    padding-top:10px ;
+}
+
+#fwcard .fw-card-box .expire-card h5 {
+ 
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+
+    color: rgba(0, 0, 0, 0.85);
+
+}
+
+#fwcard .fw-card-box .first-div {
+    display: flex;
+}
+
+#fwcard .fw-card-box .pizza-hut {
+    margin-left: 72px;
+    margin-top: 36px;
+}
+
+#fwcard .fw-card-box .text-content {
+    padding-left: 37px;
+    padding-right: 17px;
+    margin-top: 37px;
+    text-align: justify;
+}
+
+#fwcard .fw-card-box .text-content p {
+
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+
+    /* or 182% */
+
+
+    color: rgba(0, 0, 0, 0.74);
+}
+
+#fwcard .fw-card-box .redeem {
+    cursor: pointer;
+    margin-top: 59px;
+    color: white;
+    width: 279px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(128, 0, 128, 0.89);
+    border-radius: 20px;
+}
+
+#fwcard .fw-card-box .redeem h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* 😒😒😒😒😒😒😒😒😒😒 */
+@media(max-width:768px){
+    #fwcard .fw-card-box .first-div img{
+        width: 36.62px;
+        height: 35px;
+    }
+    #fwcard .fw-card-box .expire-card h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 7px;
+        margin-bottom: 2px;
+        color: rgba(0, 0, 0, 0.85);
+    }
+    #fwcard .fw-card-box .pizza-hut {
+        margin-left: 8px;
+        margin-top: 18px;
+    }
+    #fwcard .fw-card-box .expire-card {
+        width: 55px;
+        height: 29px;
+        background: rgba(128, 0, 128, 0.07);
+        box-shadow: 2px 2px 2px rgb(0 0 0 / 25%);
+        border-radius: 8px;
+        padding-left: 7px;
+        padding-top: 5px;
+    }
+    #fwcard .fw-card-box .text-content p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6px;
+        line-height: 12px;
+        color: rgba(0, 0, 0, 0.74);
+    }
+    #fwcard .fw-card-box .text-content {
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-top: 16px;
+        text-align: justify;
+    }
+    #fwcard .fw-card-box .redeem {
+        cursor: pointer;
+        margin-top: 0px;
+        color: white;
+        width: 97px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(128, 0, 128, 0.89);
+        border-radius: 10px;
+    }
+    #fwcard .fw-card-box .redeem h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        color: #FFFFFF;
+        margin-bottom: 0px;
+    }
+    .fw-grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 17px;
+        padding: 10px;
+    }
+    .cont-mt {
+        margin-top: 20px;
+    }
+}

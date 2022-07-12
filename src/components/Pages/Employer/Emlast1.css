@@ -1,0 +1,99 @@
+#flapo .pri-header-left h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 52px;
+
+color: #000000;
+}
+#flapo .pri-header-left{
+    padding-left: 96px;
+    padding-top: 266px;
+}
+#flapo .prg-cer{
+    width: 412px;
+height: 95px;
+padding-top: 30px;
+
+background: rgba(128, 0, 128, 0.06);
+border-radius: 10px;
+}
+#flapo .prg-cer h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+
+/* or 181% */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.4);
+}
+#flapo .three-prg{
+    margin-top: 126px;
+display: flex;
+justify-content: space-around;
+}
+#flapo .last-mt-prg{
+    margin-top: 81px;
+}
+.mb-290{
+    margin-bottom: 290px;
+}
+.mt-174{
+    margin-top: 174px;
+}
+@media (max-width:768px) {
+    .card-body {
+        width: 300px ;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+    }
+    .sch-btn h3 {
+        margin-bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #flapo .pri-header-left h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+    }
+    #flapo .pri-header-left {
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    #flapo .prg-cer {
+        width: 120px;
+        height: 30px;
+        padding-top: 9px;
+        background: rgba(128, 0, 128, 0.06);
+        border-radius: 10px;
+    }
+    #flapo .three-prg {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    #flapo .prg-cer h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.4);
+    }
+    #flapo .last-mt-prg {
+        margin-top: 30px;
+    }
+    .mb-290 {
+        margin-bottom: 43px;
+    }
+}

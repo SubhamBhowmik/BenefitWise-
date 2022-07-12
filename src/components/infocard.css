@@ -1,0 +1,76 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+   
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+  
+    
+    margin: 2rem;
+    height: 19.313rem;
+    width: fit-content;
+  }
+  .digits-container{
+      display: flex;
+      gap: .8rem;
+  }
+
+  #text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+    
+    
+    color: rgba(23, 22, 22, 0.85);
+    
+    
+    /* Inside auto layout */
+    
+   
+  }
+  #small-text{
+      
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+
+color: rgba(0, 0, 0, 0.69);
+
+  }
+
+  #digits{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    
+    text-align: center;
+    
+    color: #1F1F26;
+    
+  }
+  #micro{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    /* identical to box height, or 100% */
+    
+    text-align: center;
+    
+    color: #ADADBA;
+    
+  }
+  #bg-text{
+    color: rgba(128, 0, 128, 0.81);
+  }

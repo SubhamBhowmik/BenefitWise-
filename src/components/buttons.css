@@ -1,0 +1,264 @@
+.my-btn-1 {
+    border: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    Width: 171px;
+    Height: 52px;
+    font-size: 22px;
+    outline: none;
+    outline-style: hidden;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.my-btn-2 {
+    border: rgb(0, 0, 0);
+    background-color: rgba(128, 0, 128, 0.99);
+    border-radius: 10px;
+    width: 208px;
+    height: 52px;
+    border-radius: 10px;
+    color: rgb(12, 9, 9);
+    font-size: 22px;
+    outline: none;
+    outline-style: hidden;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.normal-text {
+    color: rgb(12, 9, 9);
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.login-btn {
+    border: rgb(0, 0, 0);
+    background-color: rgba(128, 0, 128, 0.99);
+
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: rgb(12, 9, 9);
+    font-size: 18px;
+    outline: none;
+    outline-style: hidden;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.btncz {
+    position: relative;
+    height: 56px;
+
+}
+
+.btncz input {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    outline: "none";
+    cursor: none;
+    appearance: none;
+    font-family: 'poppins';
+    font-weight: bold;
+
+
+}
+
+.btncz input:before,
+.btncz input:after {
+    z-index: 2;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #111;
+
+}
+
+.nav-login-flex {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.temp-ml {
+    margin-left: 20px;
+}
+
+.benefit-wise-logo {
+    margin-left: 27px;
+    width: auto;
+}
+
+.get-started-btn {
+    border: white;
+
+    border-radius: 10px;
+    Width: 135px;
+    Height: 37px;
+    font-size: 18px;
+    outline: none;
+    outline-style: hidden;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.contact-us-btn {
+    border: rgb(0, 0, 0);
+    background-color: rgba(128, 0, 128, 0.99);
+    border-radius: 10px;
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    color: rgb(12, 9, 9);
+    font-size: 22px;
+    outline: none;
+    outline-style: hidden;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+#loginpage .my-btn-2 {
+    border: rgb(0, 0, 0);
+    background-color: rgba(128, 0, 128, 0.99);
+    border-radius: 10px;
+    width: 230px;
+    height: 52px;
+    border-radius: 10px;
+    color: rgb(12, 9, 9);
+    font-size: 22px;
+    outline: none;
+    outline-style: hidden;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media(max-width:769px) {
+    .normal-text {
+        color: rgb(12, 9, 9);
+        font-size: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .nav-login-flex {
+        flex: none;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .temp-mx {
+        margin-left: 2rem;
+    }
+
+    .temp-ml {
+        margin-left: 0px;
+    }
+
+    .login-btn {
+        border: rgb(0, 0, 0);
+        background-color: rgba(128, 0, 128, 0.99);
+
+        width: 73px;
+        height: 30px;
+        border-radius: 20px;
+        color: rgb(12, 9, 9);
+        font-size: 12px;
+        outline: none;
+        outline-style: hidden;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .benefit-wise-logo {
+        width: 70px;
+    }
+
+    .my-btn-2 {
+        border: rgb(0, 0, 0);
+        background-color: rgba(128, 0, 128, 0.99);
+        border-radius: 10px;
+        width: 110px;
+        height: 29px;
+        border-radius: 5px;
+        color: rgb(12, 9, 9);
+        font-size: 10px;
+        outline: none;
+        outline-style: hidden;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    #loginpage .my-btn-2 {
+        border: rgb(0, 0, 0);
+        background-color: rgba(128, 0, 128, 0.99);
+        border-radius: 10px;
+        width: 110px;
+        height: 29px;
+        border-radius: 5px;
+        color: rgb(12, 9, 9);
+        font-size: 10px;
+        outline: none;
+        outline-style: hidden;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .my-btn-1 {
+        border: white;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        Width: 87px;
+        Height: 29px;
+        font-size: 10px;
+        outline: none;
+        outline-style: hidden;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .contact-us-btn {
+        border: rgb(0, 0, 0);
+        background-color: rgba(128, 0, 128, 0.99);
+        border-radius: 10px;
+        width: 120px;
+        height: 52px;
+        border-radius: 10px;
+        color: rgb(12, 9, 9);
+        font-size: 18px;
+        outline: none;
+        outline-style: hidden;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+
+
+}

@@ -1,0 +1,452 @@
+.ep-card {
+
+    width: 678px;
+    height: 327px;
+
+    padding: 0px 2rem;
+    background: rgba(253, 150, 68, 0.9);
+    border-radius: 15px;
+}
+
+.hlw {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.msg-div{
+    
+    background-image: radial-gradient(260.4% 260.4% at 0% -77.72%, #FFFFFF 50%, #FEC957 69.79%, #140A89 77.08%, #FEC957 88.72%);
+}
+.ep-card .second-div {
+    margin-top: 1rem;
+
+    margin-bottom: 1rem;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border: 1.65722px solid #FFFFFF;
+    border-radius: 8.28608px;
+}
+
+.ep-card .second-div h2 {
+    padding-top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.ep-card .second-div :nth-child(2) {
+    padding-right: 1rem;
+
+}
+
+.ep-card .second-div :nth-child(1) {
+    padding-left: .7rem;
+
+}
+
+.perks-text {
+    margin-top: 142px;
+    margin-bottom: 150px;
+}
+
+.keep {
+    background:  #FAF5FA;;
+    padding: 10px;
+}
+
+.keep-wrap {
+    margin-top: 330px;
+}
+
+.search-box {
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 21px;
+    width: 504px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.89);
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.src-wrap {
+    background:  #FAF5FA;;
+    flex: 1;
+    gap: 17px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.src-wrap .lorem-text {
+    width: 354px;
+}
+
+.search-box i {
+    font-size: 30px;
+}
+
+#ep .search-box>input,
+#ep .search-box input::placeholder {
+    font: 30px sans-serif;
+}
+
+.search-box i .fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    height: 0px
+}
+
+.ep-card .second-div .my-btn-2 {
+    font-size: 20px;
+    cursor: pointer;
+    border: rgb(0, 0, 0);
+    background-color: rgba(128, 0, 128, 0.99);
+    border-radius: 10px;
+    width: 200px;
+    height: 49px;
+    border-radius: 10px;
+    color: rgb(12, 9, 9);
+    font-size: 20px;
+    outline: none;
+    outline-style: hidden;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 3px;
+}
+.ep-card .second-div .my-btn-x {
+    font-size: 20px;
+    cursor: pointer;
+    border: rgb(0, 0, 0);
+    background-color: rgba(128, 0, 128, 0.99);
+    border-radius: 10px;
+    width: 200px;
+    height: 49px;
+    border-radius: 10px;
+    color: rgb(12, 9, 9);
+    font-size: 20px;
+    outline: none;
+    outline-style: hidden;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 3px;
+}
+
+.rounded-violet-div {
+    border-radius: 20px;
+    width: 675px;
+    height: 26px;
+}
+
+.top-border {
+    border-radius: 20px;
+}
+
+.keep h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+
+
+
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.play {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.play img {
+    width: 840px;
+    height: 479px;
+}
+
+.left-lorem {
+    margin-left: 14rem;
+}
+
+#ep input {
+    border: none;
+    outline: none;
+    outline-style: none;
+    outline-offset: unset;
+}
+
+#monika .first {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#monika .first h2 {
+    margin-left: 1rem;
+    font-size: 42px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+#monika .first h4 {
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.ep-crad-top-img {
+    width: 122.85px;
+    height: 90.46px;
+}
+
+.perks-text h1 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+
+
+    color: rgba(0, 0, 0, 0.85);
+}
+
+/* .bg-src {
+    background: url('../../../../public/images/emloyeeperks/src.svg') center/100% no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 204px;
+    display: flex;
+    align-items: center;
+} */
+
+@media (max-width:768px) {
+    .ep-card {
+        width: 197px;
+        height: 110px;
+        padding: 0px 1rem;
+        background: rgba(253, 150, 68, 0.9);
+        border-radius: 10px;
+    }
+
+    .rounded-violet-div {
+        border-radius: 10px;
+        height: 14px;
+        width: 197px;
+    }
+
+    .ep-card .second-div :nth-child(1) {
+        padding-left: 0.3rem;
+    }
+
+    .ep-card .second-div h2 {
+        padding-top: 5px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 7px;
+    }
+
+    .ep-card .second-div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 22px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        border: 1.65722px solid #FFFFFF;
+        border-radius: 8.28608px;
+    }
+
+    .hlw {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ep-crad-top-img {
+
+        width: 29.04px;
+        height: 16.69px;
+
+    }
+
+    .ep-card .second-div .my-btn-2 {
+        font-size: 20px;
+        padding-left: 5px;
+        border: rgb(0, 0, 0);
+        background-color: rgba(128, 0, 128, 0.99);
+        border-radius: 5px;
+        width: 73px;
+        height: 18px;
+        border-radius: 10px;
+        color: rgb(12, 9, 9);
+        font-size: 5px;
+        outline: none;
+        outline-style: hidden;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        margin-right: 0px;
+    }
+
+    .perks-text {
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+
+    .ep-card .second-div :nth-child(2) {
+        padding-right: 5px;
+    }
+
+    .perks-text h1 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+
+
+        color: rgba(0, 0, 0, 0.85);
+    }
+
+    .keep-wrap {
+        margin-top: 78px;
+        padding-top: 5px;
+    }
+
+    .keep h2 {
+        margin-bottom: 2px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .play img {
+        width: 259px;
+        height: 153px;
+    }
+
+    .play {
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+/* 
+    .bg-src {
+        background: url('../../../../public/images/emloyeeperks/src.svg') center/100% no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 81px;
+        display: flex;
+        align-items: center;
+    } */
+
+    .src-wrap .lorem-text {
+        width: 121px;
+        font-size: 8px;
+    }
+
+    .search-box {
+        overflow: hidden;
+        box-sizing: border-box;
+        padding-left: 5px;
+        width: 160px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.89);
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+
+    .search-box i {
+        font-size: 14px;
+    }
+
+    #ep .search-box>input,
+    #ep .search-box input::placeholder {
+        font: 15px sans-serif;
+    }
+
+    .src-wrap {
+        flex: 1 1;
+        gap: 3px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #ep .my-btn-2 {
+        cursor: pointer;
+        border: rgb(0, 0, 0);
+        background-color: rgba(128, 0, 128, 0.99);
+        border-radius: 10px;
+        width: 63px;
+        height: 22px;
+        border-radius: 5px;
+        color: rgb(12, 9, 9);
+        font-size: 8px;
+        outline: none;
+        outline-style: hidden;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+    #ep .my-btn-x{
+        cursor: pointer;
+        border: rgb(0, 0, 0);
+        background-color: rgba(128, 0, 128, 0.99);
+
+        width: 63px;
+        height: 14px;
+        border-radius: 5px;
+        color: rgb(12, 9, 9);
+        font-size: 7px;
+        outline: none;
+        outline-style: hidden;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+    #monika .first h2 {
+        margin-left: 5px;
+        font-size: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+    #monika .first h4 {
+        font-size: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+   
+    .first .fa-4x {
+        margin-top: -9px;
+        font-size: 24px;
+    }
+    #monika .first {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}

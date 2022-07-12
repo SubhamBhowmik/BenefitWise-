@@ -1,0 +1,16 @@
+.nav-item{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+}
+@media (max-width:768px) {
+    .huya{
+        padding-left: 16px;
+    }
+}

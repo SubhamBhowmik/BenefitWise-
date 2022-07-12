@@ -1,0 +1,15 @@
+
+.whole{
+    height:auto;
+    width: auto;
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+}
+.cardholder1{
+    padding: 10px;
+}
+.headin{
+    height: 20vh;
+    background-color: antiquewhite;
+}

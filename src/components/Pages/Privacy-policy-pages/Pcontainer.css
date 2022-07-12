@@ -1,0 +1,133 @@
+.or-div {
+
+    width: 100%;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(253, 150, 68, 0.73);
+}
+
+.or-div h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 40px;
+    /* identical to box height, or 77% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#p-policy p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    text-align: justify;
+
+
+    color: rgba(0, 0, 0, 0.83);
+}
+
+#p-policy h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+
+
+    color: rgba(128, 0, 128, 0.95);
+}
+
+#p-policy li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    text-align: justify;
+
+
+    color: rgba(0, 0, 0, 0.83);
+}
+
+#p-policy h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+
+
+    color: #000000;
+}
+.mt-opo{
+    margin-top: 3rem;
+}
+@media (max-width:768px) {
+    .or-div {
+        width: 100%;
+        height: 69px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(253, 150, 68, 0.73);
+    }
+    .or-div h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 0px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #p-policy p {
+        line-height: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        text-align: justify;
+        color: rgba(0, 0, 0, 0.83);
+    }
+    .mt-opo{
+        margin-top: 15px;
+    }
+    #p-policy h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 40px;
+        color: rgba(128, 0, 128, 0.95);
+    }
+    #p-policy li {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        text-align: justify;
+        color: rgba(0, 0, 0, 0.83);
+    }
+    #p-policy ol, ul {
+        padding-left: 10px;
+    }
+    #p-policy h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+}

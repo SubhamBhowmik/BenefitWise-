@@ -1,0 +1,79 @@
+.iconholder-wrapper{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.icon-wrapper{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.icon-wrapper .icon{
+
+    width: 100%;
+height: 53.44px;
+}
+
+.text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 95px;
+    /* identical to box height, or 271% */
+    
+    text-align: center;
+    
+    color: #25464A;
+}
+.text1 > :nth-child(1){
+    margin-top: 7rem;
+    font-family: 'PT Sans Caption';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 65px;
+text-align: center;
+width: 904px;
+height: 130px;
+
+color: rgba(0, 0, 0, 0.93);
+
+}
+.text1 > :nth-child(2){
+  
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: rgba(10, 12, 12, 0.88);
+
+
+}
+.text1 > :nth-child(3){
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: rgba(10, 12, 12, 0.88);
+
+
+}

@@ -1,0 +1,262 @@
+#about .top-wrap {
+    margin-top: 85px;
+}
+
+.bg-about-banner {
+
+    background-image: radial-gradient(226.6% 1054.13% at -43.95% 232.52%, rgba(128, 0, 128, 0.25) 1.91%, rgba(253, 150, 68, 0.9) 86.34%);
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+#about .our-text {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#about .normal-text {
+    margin-bottom: 101px;
+    padding: 0px 167px;
+    padding-bottom: 116px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+#about .o-t {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+
+
+    text-align: center;
+
+    color: #000000;
+}
+
+#about .wrapp {
+    margin-top: 81px;
+    display: flex;
+
+
+}
+
+.whole-wrapp {
+    margin-top: 171px;
+}
+
+#about .wrapp-2 {
+    display: flex;
+
+    margin-top: 81px;
+
+}
+
+#about h1 {
+
+    width: 303px;
+    height: 78px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+#about .box {
+    padding-top: 30px;
+    padding-left: 65px;
+    padding-right: 20px;
+    width: 557px;
+    height: 275px;
+
+
+
+    border-radius: 25px;
+}
+
+#about .text-cont {
+    padding-right: 20px;
+}
+
+#about h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height */
+
+
+  
+}
+
+#about .rep-wrap {
+    margin-top: 82px;
+    display: flex;
+    gap: 120px;
+}
+
+
+#about .img-da {
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
+/* 😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒 */
+
+
+@media (max-width:768px) {
+    #about .normal-text {
+        margin-bottom: 15px;
+        padding: 0px 10px;
+        padding-bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        text-align: justify;
+        color: #FFFFFF;
+    }
+
+    #about .our-text {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .bg-about-banner {
+
+        background-image: radial-gradient(226.6% 1054.13% at -43.95% 232.52%, rgba(128, 0, 128, 0.25) 1.91%, rgba(253, 150, 68, 0.9) 86.34%);
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 25vh;
+    }
+
+    #about .top-wrap {
+        margin-top: 20px;
+    }
+
+    #about .o-t {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 50px;
+        text-align: center;
+        color: #000000;
+    }
+
+    #about .img-da {
+        width: 131px;
+        height: 117px;
+    }
+
+    #about .text-cont p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    #about .whole-wrapp {
+        margin-top: 20px;
+    }
+    #about .wrapp {
+        margin-left: 5px;
+        margin-top: 20px;
+        display: flex;
+    }
+    #about h1 {
+
+     
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+       
+        /* identical to box height */
+        text-align: center;
+    
+        color: #000000;
+    }
+    #about h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 2px;
+        /* identical to box height */
+    
+    
+        color: rgba(0, 0, 0, 0.9);
+    }
+    #about p{
+        line-height: 10px;
+        font-size: 8px;
+    }
+    #about .rep-wrap {
+        margin-top: 30px;
+        display: flex;
+        gap: 30px;
+    }
+    #about .box {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+        width: 156px;
+        height: 94px;
+        border-radius: 10px;
+    }
+    #about h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+      
+        line-height: 8px;
+        font-size: 10px;
+    }
+    #about h5{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+ 
+        line-height: 8px;
+        font-size: 9px;
+    }
+}

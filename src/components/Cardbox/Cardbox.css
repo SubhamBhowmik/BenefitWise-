@@ -1,0 +1,222 @@
+#test-card .testi-card {
+
+    width: 555px;
+    height: 673px;
+
+
+    background: rgba(128, 0, 128, 0.18);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#test-card .dot {
+    position: absolute;
+    left: 63px;
+    top: 33px;
+    z-index: 3;
+    font-size: 52px;
+    color: #FFFFFF;
+}
+
+#test-card .cls1 {
+    position: absolute;
+    right: 0;
+    top: 109px;
+}
+
+#test-card .cls2 {
+    position: absolute;
+    right: 0;
+    top: 172px;
+}
+
+#test-card .cls3 {
+    position: absolute;
+    bottom: 102px;
+    left: 0;
+}
+.img-bgun {
+    max-width: 100%;
+    height: auto;
+}
+#test-card .cls4 {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+}
+
+#test-card .first {
+    margin-top: 121px;
+}
+
+#test-card .first h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 28px;
+    /* identical to box height, or 78% */
+
+
+    color: #FFFFFF;
+}
+
+#test-card .second {
+    margin-top: 62px;
+    padding-left: 58px;
+    padding-right: 58px;
+    text-align: justify;
+}
+
+#test-card .second p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0px;
+
+    color: #000000;
+
+}
+
+#test-card .thirddd {
+    margin-top: 15px;
+}
+
+#test-card .thirddd h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 100% */
+
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#test-card .thirddd h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+
+
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.mt-97 {
+    margin-top: 97px;
+}
+#test-card .avatar-img {
+    border-radius: 100%;
+    margin-top: 10px;
+    height: 120px;
+    width: 120px;
+}
+@media (max-width:768px) {
+    #test-card .testi-card {
+        width: 198px;
+        height: 229px;
+
+        background: rgba(128, 0, 128, 0.18);
+        box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
+        border-radius: 5px;
+    }
+    .mt-97 {
+        margin-top: 55px;
+    }
+    .img-bgun {
+        max-width: 45px;
+        height: 45px;
+    }
+    #test-card .dot {
+        position: absolute;
+        left: 12px;
+        top: 6px;
+        z-index: 3;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    #test-card .first h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+        color: #FFFFFF;
+    }
+    #test-card .first {
+        margin-top: 26px;
+    }
+    #test-card .second {
+        margin-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+    }
+    #test-card .second p {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        margin-bottom: 0px;
+    
+        color: #000000;
+    
+    }
+    
+    #test-card .avatar-img {
+        border-radius: 100%;
+        margin-top: 10px;
+        height: 40px;
+        width: 40px;
+    }
+    #test-card .thirddd h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 0px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    #test-card .thirddd h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 14px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    #test-card .cls3 {
+        position: absolute;
+        bottom: 69px;
+        left: 0;
+        height: 30px;
+    }
+    #test-card .cls4 {
+        position: absolute;
+        bottom: 38px;
+        height: 30px;
+        left: 0;
+    }
+    #test-card .cls1 {
+        position: absolute;
+        right: 0;
+        height: 30px;
+        top: 30px;
+    }
+    #test-card .cls2 {
+        position: absolute;
+        right: 0;
+        height: 30px;
+        top: 60px;
+    }
+}

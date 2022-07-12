@@ -1,0 +1,129 @@
+.muo h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 60px;
+    margin-bottom: 25px;
+    /* identical to box height, or 171% */
+    
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.73);
+}
+.jatan h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 60px;
+/* or 115% */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.78);
+}
+.jatan{
+    margin-top: 77px;
+}
+.jatan-p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 40px;
+/* or 182% */
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.74);
+margin-bottom: 55px;
+}
+.pad-cont {
+    margin-top: 52px;
+    padding-left: 190px;
+    padding-right: 185px;
+}
+.img-cls1{
+    position: relative;    width: 100%;
+}
+
+.bg-book-demo{
+ 
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.marin-form{
+    padding-top: 241px;
+}
+.book-bg{
+    background: url('../../../../public//images/Bookdemo/bg.svg') center/100% no-repeat;
+    background-size: cover;
+    height: 143vh;
+}
+.gg{
+  padding-top: 123px;
+  padding-bottom: 50px;
+}
+@media (max-width:768px) {
+    .pad-cont{
+        margin-top: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .jatan{
+        margin-top: 25px;
+    }
+    .gg {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .jatan h2{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+  margin-bottom: 2px;
+    /* or 115% */
+    
+    text-align: center;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.78);
+    }
+    .jatan-p {
+        padding-top: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        text-align: justify;
+        color: rgba(0, 0, 0, 0.74);
+        margin-bottom: 27px;
+    }
+    .muo h2 {
+        font-family: '';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 60px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.73);
+    }
+    #bookdemo .form-control {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 10px !important;
+        font-weight: 400;
+        line-height: 12px !important;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+}

@@ -1,0 +1,147 @@
+#order-last h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+
+
+    color: #000000;
+}
+
+.orderslide- {
+    margin-top: 228px;
+}
+.uu{
+    margin-bottom: 44px;
+}
+.new-order-card{
+    box-sizing: border-box;
+position: relative;
+width: 449px;
+height: 534px;
+padding: 9px;
+border: 1px solid rgba(0, 0, 0, 0.45);
+border-radius: 20px;
+}
+.ordercard-whole-wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.electro{
+    margin-top: 30px;
+}
+.electro h6{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+
+
+color: rgba(0, 0, 0, 0.87);
+}
+.violet-dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgba(128, 0, 128, 0.88);
+  }
+  .violet-dot i {
+    font-size: 12px;
+  }
+  .vg{
+    margin-left: 5px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 40px;
+/* identical to box height, or 121% */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.9);
+  }
+  .hui{
+    padding-left: 2rem;
+  }
+@media (max-width:768px) {
+    .line-container {
+        height: 15px;
+        border-radius: 15px;
+        background-color: #ccc;
+      }
+    #order-last h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+
+
+        color: #000000;
+
+    }
+    .orderslide-{
+        margin-top: 44px;
+    }
+    .uu{
+        margin-bottom: 15px;
+    }
+    .new-order-card {
+
+        width: 151px;
+        height: 178px;
+        background: rgba(255, 255, 255, 0.73);
+        border: 1px solid rgba(0, 0, 0, 0.55);
+        border-radius: 10px;
+      }
+      .new-order-card img {
+        box-sizing: border-box;
+    
+    
+        width: 133.83px;
+        height: 162px;
+    
+    
+        border: 1px solid rgba(0, 0, 0, 0.48);
+        border-radius: 10px;
+      }
+      .electro h6{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    
+    
+    color: rgba(0, 0, 0, 0.87);
+    }
+    .violet-dot {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: rgba(128, 0, 128, 0.88);
+      }
+      .violet-dot i {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+      }
+      .vg{
+        margin-bottom: -6px;
+        margin-left: 5px;
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+   
+    /* identical to box height, or 121% */
+    
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.9);
+      }
+      .hui{
+        padding-left:25px;
+      }
+}
