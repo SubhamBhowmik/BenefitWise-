@@ -15,8 +15,9 @@ const Epheader = () => {
             </div>
             <div className="ep-text ">
               <h1>Enjoy Perks</h1>
-              <h1>Like never before</h1>
-              <h1>With Extra discounts</h1>
+              <h1> and amazing discounts  
+                                        </h1>
+              <h1>like never before.</h1>
             </div>
 
           </div>

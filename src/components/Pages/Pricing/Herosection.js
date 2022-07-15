@@ -13,11 +13,12 @@ const Herosection = () => {
 
 
                             <div class="pri-header-left">
-                                <h1 class="mt-3 "> <strong>Choose the best</strong></h1>
-                                <h1>out of it</h1>
+                                <h1 class="mt-3 "> <strong>Customize your plans</strong></h1>
+                                <h1></h1>
                                 <p class=" ">
-                                    Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur.
-                                    Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur.
+                                From quarterly, and yearly plans to customized plans, we have a range of options available for users, Pick what is suitable for your requirements!
+
+
                                 </p>
                               
                                 <div className='last-div'>

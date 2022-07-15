@@ -63,7 +63,7 @@ const Navbar = ({history}) => {
               </li>
 
               <li class="nav-item temp-mx d-flex align-items-center huya">
-              <LoginDialogpage />
+              <LoginDialogpage  />
               </li>
              
                

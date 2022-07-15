@@ -28,7 +28,7 @@ const Cradholder = () => {
     img: "./images/cardholder/2.png",
     title1: "Rewards & recognition ",
     title2: "programme",
-    subtitle: "Encourage your employees by giving seemless."
+    subtitle: " Reward your employees for their dedication and constant efforts"
   }
   const card5 = {
     img: "./images/cardholder/3.png",

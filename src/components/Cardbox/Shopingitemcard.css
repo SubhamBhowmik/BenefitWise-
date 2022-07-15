@@ -13,7 +13,7 @@
 
 #shopingitemcard .item-card {
     padding: 10px;
-    max-width: 450px;
+    max-width: 428px;
     border-radius: 20px;
     border: 1px solid black;
 }
@@ -56,6 +56,7 @@
   
   }
   .mb-vico{
+    width: 428px;
     margin-bottom: 50px;
   }
 @media (max-width:768px) {
@@ -115,6 +116,7 @@
         font-size: 13px;
     }
     .mb-vico{
+        width: 119px;
         margin-bottom: 20px;
       }
 }

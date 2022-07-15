@@ -49,11 +49,13 @@ const Emploheader1 = () => {
 
 
                             <div class="pri-header-left new-h2">
-                                <h2 class=" mt-3 ">Its time to take </h2>
-                                <h2>rest</h2>
+                                <h2 class=" mt-3 ">Give them a choice to choose best.
+                                </h2>
+
 
                                 <div class="new">
-                                    <h3>Easy access to all reports</h3>
+                                    <h3>Either choose or have your employees choose the best offers and rewards from a wide range of your favourite brands, restaurants and apps.
+                                    </h3>
                                 </div>
 
 
@@ -108,21 +110,21 @@ const Emploheader1 = () => {
                     <h1 className='one-'>One Software for all</h1>
                 </div>
 
-            <div className="container">
-            <div class="zc-grid-container">
-                    <div class="zc-item1"><Lightpinkbox c={c3}/></div>
-                    <div class="zc-item2"><Lightpinkbox c={c3}/></div>
-                    <div class="zc-item3"><Lightpinkbox c={c3}/></div>
-                    <div class="zc-item4 "><Lightpinkbox c={c3}/>
-                    <Lightpinkbox c={c3}/>
+                <div className="container">
+                    <div class="zc-grid-container">
+                        <div class="zc-item1"><Lightpinkbox c={c3} /></div>
+                        <div class="zc-item2"><Lightpinkbox c={c3} /></div>
+                        <div class="zc-item3"><Lightpinkbox c={c3} /></div>
+                        <div class="zc-item4 "><Lightpinkbox c={c3} />
+                            <Lightpinkbox c={c3} />
+                        </div>
+
+
+
                     </div>
-                  
-                 
-                  
+
                 </div>
 
-            </div>
-                
 
                 <div className='text-center s-c-u'>
                     <h2>Services Currently Using </h2>

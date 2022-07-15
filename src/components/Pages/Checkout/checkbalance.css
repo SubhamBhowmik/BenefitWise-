@@ -7,7 +7,39 @@
     box-shadow: -8px -8px 16px rgb(0 0 0 / 10%), 8px 8px 16px rgb(0 0 0 / 10%);
     border-radius: 20px;
 }
+#checkbalance  .sec{
+    padding-left: 38px;
+}
+#checkbalance  .sec h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
 
+color: #000000;
+}
+#checkbalance .sec h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+#checkbalance .ac-wrap{
+    display: flex;
+    gap: 30px;
+    
+}
+#checkbalance .ac-wrap2{
+    display: flex;
+    gap: 98px;
+    
+}
 #checkbalance .semi-box {
     box-sizing: border-box;
 

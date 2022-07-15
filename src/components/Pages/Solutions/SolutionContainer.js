@@ -18,38 +18,37 @@ const Solutioncontainer = () => {
 
     const card1 = {
         img: "./images/cardholder/left1.png",
-        title1: "Channel",
-        title2: "promotion programs",
-        subtitle: "Encourage your employees by giving seemless.",
-        bg: " rgba(231, 21, 8, 0.36)"
-    
+        title1: "Sales Incentivization",
+        title2: "",
+        subtitle: "All set, Target met? Reward your employees each time they meet business requirements. ",
+        bg:"rgba(14, 90, 205, 0.36)"
       }
-      const card2 = {
+      const card2= {
         img: "./images/cardholder/right1.png",
-        title1: "Corporate",
-        title2: "gifting",
-        subtitle: "Encourage your employees by giving seemless.",
-        bg: " rgba(231, 21, 8, 0.36)"
+        title1: "Corporate gifting ",
+        title2: "",
+        subtitle: "A variety of Gift coupons and vouchers are available to maintain your business relations.",
+        bg:"rgba(14, 90, 205, 0.36)"
       }
       const card3 = {
         img: "./images/cardholder/1.png",
         title1: "Employee perks ",
         title2: " ",
-        subtitle: "Encourage your employees by giving seemless.",
+        subtitle: " Browse more than 500+ online and offline options to motivate and reward your employees.",
         bg:"rgba(14, 90, 205, 0.36)"
       }
       const card4 = {
         img: "./images/cardholder/2.png",
         title1: "Rewards & recognition ",
         title2: "programme",
-        subtitle: "Encourage your employees by giving seemless.",
+        subtitle: " Reward your employees for their dedication and constant efforts.",
         bg:"rgba(14, 90, 205, 0.36)"
       }
       const card5 = {
         img: "./images/cardholder/3.png",
         title1: "Food Card",
         title2: "",
-        subtitle: "Encourage your employees by giving seemless.",
+        subtitle: " We offer food cards that can be availed on food applications as well as Food Outlets.",
         bg:"rgba(14, 90, 205, 0.36)"
       }
 
@@ -68,23 +67,17 @@ const Solutioncontainer = () => {
                           <NewHcard card={card1}/>
                         </div>
                         <div class="sol-item2">
-                            <div className="p-text kylo">
-                                <p>Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consectetur sit animi
-                                    eius ut nesciunt volupta
-                                    lotes et tempore delectus At
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed temporibus et fuga officia! Consequatur non est ex voluptatem nesciunt voluptatum reiciendis cumque eius at? At molestias illum reprehenderit neque!
+                            <div className="p-text kylo ">
+                                <p>Boost your channel's growth with our promotion program. Reach a wider audience and amplify your profits. Providing the work partners with gifts, appreciating their work and also providing them with benefits like employees can improve the relations between the company and the partners. 
 
 
                                 </p>
                             </div>
                         </div>
                         <div class="sol-item3">
-                            <div className="p-text kylo">
-                                <p>Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consectetur sit animi
-                                    eius ut nesciunt volupta
-                                    lotes et tempore delectus At
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident architecto accusamus fuga tenetur ratione eaque minima tempore quia placeat dignissimos necessitatibus, sed sapiente voluptas? 
-                                    Eos adipisci eum beatae repudiandae omnis!
+                            <div className="p-text kylo wid">
+                                <p>Gift your employees rewards in the form of vouchers to drive employee productivity, boost morale, express gratitude for their hard work, and enhance your goodwill and the company's reputation!
+
 
                                 </p>
                             </div>
@@ -98,22 +91,15 @@ const Solutioncontainer = () => {
                         </div>
                         <div class="sol-item6">
                             <div className="p-text kylo">
-                                <p>Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consectetur sit animi
-                                    eius ut nesciunt volupta
-                                    lotes et tempore delectus At
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore rerum, reiciendis tempora ab adipisci atque soluta quidem esse ipsa voluptatum possimus neque
-                                     nemo officia exercitationem? Non dolores eius mollitia accusantium!
+                                <p>We know it's important to take care of your people, which is why we offer all the support and amenities that help make their experience awesome. From free coupons in our employee perks package to free vouchers, we have got you covered!
+
 
                                 </p>
                             </div>
                         </div>
                         <div class="sol-item7">
-                            <div className="p-text kylo">
-                                <p>Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consectetur sit animi
-                                    eius ut nesciunt volupta
-                                    lotes et tempore delectus At
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel error commodi iure dolores vero officiis temporibus molestias fugiat architecto itaque eveniet 
-                                    necessitatibus, laborum, soluta voluptates corrupti eos beatae laboriosam!
+                            <div className="p-text kylo wid">
+                                <p>Employees are the backbone of any company and it is our goal to show them how much they mean. We do this through monthly rewards and year-end awards ceremonies where we thank all those who have gone above and beyond for their hard work!
 
                                 </p>
                             </div>
@@ -126,11 +112,8 @@ const Solutioncontainer = () => {
                         </div>
                         <div class="sol-item10">
                             <div className="p-text kylo">
-                                <p>Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consectetur sit animi
-                                    eius ut nesciunt volupta
-                                    lotes et tempore delectus At
-                                    Lorem ipsum dolor sit amet consectetur ad
-                                    ipisicing elit. Distinctio, rerum, totam iusto sit molestiae beatae maxime inventore pariatur ea enim at amet natus repellendus doloribus laborum voluptatum magnam ut a.
+                                <p>After you've had enough of the same old food at your local cart, come to our spot and try some really unique options! We have something that will make even an experienced eater think twice.
+
 
 
                                 </p>

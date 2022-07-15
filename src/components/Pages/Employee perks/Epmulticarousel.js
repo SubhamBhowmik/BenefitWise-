@@ -2,7 +2,18 @@ import React from 'react'
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay, } from 'swiper';
+import ScrollBar from './ScrollBar';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFade } from 'swiper';
+import Newswiper from './Newswiper'
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/effect-fade';
+import ShopingItemcards from '../../Cardbox/ShopingItemcards';
 import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, MDBRipple } from 'mdb-react-ui-kit';
 import ShopingItecards from '../../Cardbox/ShopingItemcards'
 const responsive = {
@@ -34,9 +45,10 @@ const CustomRightArrow = ({ onClick, ...rest }) => {
 };
 
 const Epmulticardcarousel = () => {
+
   return (
     <>
-      <div className='mb-5 container ' id='monika' >
+      <div className='mb-5 pl-64 ' id='monika' >
         <div className=''>
           <div className='first'>
 
@@ -48,34 +60,9 @@ const Epmulticardcarousel = () => {
 
           </div>
         </div>
-
-        <Carousel
+      
+           <Newswiper/> 
        
-     
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={2000}
-          keyBoardControl={true}
-          showDots={false}
-          swipeable={true}
-          draggable={true}
-          responsive={responsive}
-          removeArrowOnDeviceType={["tablet", "desktop","mobile"]}
-        >
-
-
-          <ShopingItecards />
-          <ShopingItecards />
-          <ShopingItecards />
-
-
-
-
-        </Carousel>
-        <div className='line-container d-flex'>
-          <div className='bg-orange left-line' ></div>
-          <div className='bg-light-gray' ></div>
-        </div>
       </div>
     </>
   )

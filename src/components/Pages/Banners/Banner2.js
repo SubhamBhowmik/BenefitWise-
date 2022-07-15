@@ -17,7 +17,7 @@ const Banner2 = () => {
                         <div className='second-div'>
                             <p>
 
-                                Let your employees be their own boss. Let your employee choose amoung 500+ online and offline options
+                            Hard-working and dedicated employees do need constant motivation and rewards to stay enthusiastic. We have a variety of options available to reward employees for their talent. 
                             </p>
                         </div>
 

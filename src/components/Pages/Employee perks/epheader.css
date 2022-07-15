@@ -68,18 +68,12 @@
     margin-top: 20px;
 }
 .ep-text h1 {
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 55px;
-    line-height: 80px;
-    /* or 145% */
-
-
-
+    font-size: 43px;
+    line-height: 65px;
     color: #FFFFFF;
-
 }
 .ep-new-img{
     height: auto;

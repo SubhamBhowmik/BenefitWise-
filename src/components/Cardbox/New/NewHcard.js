@@ -21,11 +21,13 @@ const NewHcard = ({card}) => {
                         <h1>{card.title2}</h1>
                     </div>
                     <div className=' second d-flex justify-content-center'>
-                        <img src={card.img} alt="" />
+                       <div className='img-wrap'>
+                       <img className='img-box' src={card.img} alt="" />
+                       </div>
+                       
                     </div>
                     <div className='third-div '>
-                        <p>Encourage your employees by giving </p>
-                        <p>seemless.</p>
+                        <p>{card.subtitle}</p>
                     </div>
 
                     <div className='fourth-div'>

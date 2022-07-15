@@ -1,0 +1,112 @@
+.mt-161 {
+    margin-top: 161px;
+}
+
+.new-div {
+    padding-left: 95px;
+    margin-top: 157px;
+}
+
+#nps .firstc h1 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+
+
+    color: #000000;
+}
+
+#nps .secondc p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    /* or 182% */
+
+
+    color: rgba(0, 0, 0, 0.79);
+}
+#nps .secondc{
+    margin-top: 41px;
+}
+
+#nps  ol {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    /* or 182% */
+
+
+    color: #363636;
+}
+#nps .thirdc {
+    margin-top: 48px;
+    padding-left: 65px;
+}
+.seg-div{
+    margin-top: 168px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+ 
+.seg-div h1{
+    
+font-family: 'poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 40px;
+/* identical to box height, or 83% */
+
+
+color: #000000;
+}
+
+.f-grid- {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img-bo{
+    height:173px;
+
+}
+
+.f-grid- h6{
+    font-family: 'PT Sans Caption';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+
+
+color: #000000;
+}
+.f-grid- > div{
+    padding-top: 17px;
+}
+
+.mt-173{
+    margin-top: 173px;
+    margin-bottom: 111px;
+}
+.kji p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 40px;
+/* or 182% */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.79);
+}
+.kji{
+    margin-top: 64px;
+}

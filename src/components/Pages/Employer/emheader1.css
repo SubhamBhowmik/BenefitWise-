@@ -6,8 +6,8 @@
 }
 
 #em-header1 .pri-header-left {
-    margin-top: 44px;
-    margin-left: 135px;
+    margin-top: 0px;
+    margin-left: 83px;
 }
 
 #em-header1 .pri-header-right {
@@ -280,38 +280,37 @@
     font-size: 53px;
 }
 
-
+#em-header1 .new{
+    margin-top: 20px;
+}
 #em-header1 .new h3 {
     font-family: 'PT Sans Caption';
     font-style: normal;
     font-weight: 700;
-    font-size: 23px;
-    line-height: 38px;
-    /* identical to box height, or 165% */
-
-
-
+    font-size: 20px;
+    line-height: 20px;
     color: #062C30;
 }
-.new-h2 h2{
-    
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 52px;
-line-height: 78px;
-
-color: rgba(0, 0, 0, 0.83);
+.new-h2 h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 51px;
+    color: rgba(0, 0, 0, 0.83);
 }
 
 
 @media (max-width:768px) {
+    #em-header1 .new{
+        margin-top: 6px;
+    }
     #em-header1 .new h3 {
         font-family: 'PT Sans Caption';
         font-style: normal;
         font-weight: 700;
         font-size: 8px;
-        line-height: 12px;
+        line-height: 9px;
         color: #062C30;
     }
     #em-header1 .pri-header-right img {
@@ -337,9 +336,10 @@ color: rgba(0, 0, 0, 0.83);
         font-family: 'PT Sans Caption';
         font-style: normal;
         font-weight: 700;
-        font-size: 12px;
-        margin-bottom: 2px;
-
+        font-size: 16px;
+    
+        margin-bottom: 0px;
+        line-height: 16px;
         color: #062C30;
 
     }

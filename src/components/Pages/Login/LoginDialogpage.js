@@ -9,6 +9,7 @@ const LoginDialogpage = () => {
   const history = useHistory()
   const [open, setOpen] = React.useState(false);
   console.log(open);
+
   const handleClickOpen = () => {
     setOpen(true);
   };
@@ -29,7 +30,7 @@ const LoginDialogpage = () => {
     <>
 
       <div>
-        <button class="login-btn" onClick={() => setOpen(true)} >
+        <button class="login-btn"  >
           <div className="d-flex align-items-center  px-2 text-decoration-none  text-white ">
             Login
             <i class=" fa-solid fa-user" style={{ marginLeft: ".3rem" }}></i>
@@ -39,7 +40,7 @@ const LoginDialogpage = () => {
 
 
 
-
+{/* 
         <Dialog
           className=''
           open={open}
@@ -61,7 +62,7 @@ const LoginDialogpage = () => {
 
 
 
-        </Dialog>
+        </Dialog> */}
       </div>
     </>
   )

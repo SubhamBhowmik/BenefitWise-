@@ -1,0 +1,16 @@
+#health .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#health .right h1{
+    font-family: 'poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 95px;
+/* identical to box height, or 183% */
+
+
+color: #062C30;
+}

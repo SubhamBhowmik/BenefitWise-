@@ -13,9 +13,7 @@ const Fwheader = () => {
                         <h1 class="mt-3 ">Get Amazing <span style={{ color: "red" }}>Offers,</span> </h1>
                         <h1><span style={{ color: "red" }}> Discounts </span> on Food</h1>
                         <p class=" ">
-                            Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur.
-                            Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur.
-                            aspernatur.
+                        Use our services to win amazing offers and discounts on your favourite food items and restaurants!
                         </p>
 
                         <div className='last-div'>

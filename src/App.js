@@ -28,6 +28,9 @@ import Employer3 from './components/Pages/Employer3/Employer3';
 import Employer4 from './components/Pages/Employer4/Employer4';
 import Employer5 from './components/Pages/Employer5/Employer5';
 import Newcheckout from './components/Pages/Checkout/Newcheckout';
+import Healthinsurance from './components/Pages/HealthInsurance/Healthinsurance';
+import CorporateNps from './components/Pages/Corporatenps/CorporateNps';
+import Authaws from '../src/components/Authaws'
 const App = () => {
   return (
     <>
@@ -61,6 +64,9 @@ const App = () => {
           <Route path='/privacypolicy' exact component={Privacypolicy} />
           <Route path='/termsandconditions' exact component={Termsandcondition} />
           <Route path='/refundpolicy' exact component={Refundpolicy} />
+          <Route path='/healthinsurance' exact component={Healthinsurance} />
+          <Route path='/corporateNPS' exact component={CorporateNps} />
+         
           
         </Switch>
       </Router>

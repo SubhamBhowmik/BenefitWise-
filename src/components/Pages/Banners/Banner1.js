@@ -18,8 +18,9 @@ const Banner1 = () => {
 
                             <div className='second-div'>
                                 <p>
+                                    From Food cards to Reward Programs, we have more than 500+ online and offline options available to make your employees their boss.
 
-                                    Let your employees be their own boss. Let your employee choose amoung 500+ online and offline options
+
                                 </p>
                             </div>
 

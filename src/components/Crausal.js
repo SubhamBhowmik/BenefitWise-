@@ -34,7 +34,7 @@ const Crausal = () => {
           disableOnInteraction: false,
         }}
       onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+   
     >
       <SwiperSlide>
         <Banner3/>

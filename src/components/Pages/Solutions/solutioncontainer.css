@@ -165,6 +165,17 @@
     padding-right: 92px;
 
 }
+.kylo p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 179% */
+  
+  
+  color: rgba(0, 0, 0, 0.79);
+}
 .mt-71{
   margin-top: 69px;
   margin-bottom: 58px;

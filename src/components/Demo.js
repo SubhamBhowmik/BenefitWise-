@@ -61,6 +61,9 @@ import Newcheckout from './Pages/Checkout/Newcheckout';
 import Frequentlyasked from './Pages/Employer5/Frequentlyasked';
 import Homefooter from './Pages/Home/Homefooter';
 import Contact from './Pages/Bookdemo/Contact';
+import Newswiper from './Pages/Employee perks/Newswiper';
+import NewEpcarousel from './Pages/Employee perks/NewEpcarousel'
+import Authaws from './Authaws'
 
 const Demo = () => {
   const c3 = {
@@ -112,7 +115,7 @@ const Demo = () => {
 
   return (
     <>
-     <Navbar/>
+  <Authaws/>
 
       {/* <div>
         <section class="" style={{position:"relative",background:"orange"}}>

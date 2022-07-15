@@ -8,7 +8,7 @@ const ShopingItemcards = () => {
   const history=useHistory()
   return (
     <>
-      <div className='d-flex justify-content-center' id='shopingitemcard' >
+      <div className='' id='shopingitemcard' >
         <div className='mb-vico'>
           <div className='item-card  shadow ' style={{overflow:"hidden" }}>
 

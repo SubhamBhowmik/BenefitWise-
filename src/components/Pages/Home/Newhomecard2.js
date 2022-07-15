@@ -5,17 +5,17 @@ import './newhomecard2.css'
 const Newhomecard2 = () => {
   
       const card3 = {
-        img: "./images/cardholder/1.png",
-        title1: "Employee perks ",
-        title2: " ",
-        subtitle: "Encourage your employees by giving seemless.",
+        img: "./images/cardholder/left1.png",
+        title1: "Sales Incentivization",
+        title2: "",
+        subtitle: "All set, Target met? Reward your employees each time they meet business requirements. ",
         bg:"rgba(14, 90, 205, 0.36)"
       }
       const card4 = {
-        img: "./images/cardholder/2.png",
-        title1: "Rewards & recognition ",
-        title2: "programme",
-        subtitle: "Encourage your employees by giving seemless.",
+        img: "./images/cardholder/right1.png",
+        title1: "Corporate gifting ",
+        title2: "",
+        subtitle: "A variety of Gift coupons and vouchers are available to maintain your business relations.",
         bg:"rgba(14, 90, 205, 0.36)"
       }
       const card5 = {

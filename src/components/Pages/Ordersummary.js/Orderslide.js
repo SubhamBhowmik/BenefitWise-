@@ -84,7 +84,7 @@ const Orderslide = () => {
                                 "rgba(254, 196, 88, 0.92)"
                         }}></i>
                     </div>
-                    <div className='vg'>1.How can I use my Myntra Gift Card</div>
+                    <div className='vg'>1.How many types of rewards are there?</div>
                 </div>
                 <div className='d-flex align-items-center'>
                     <div className='violet-dot justify-content-center align-items-center text-center' >
@@ -93,7 +93,7 @@ const Orderslide = () => {
                                 "rgba(254, 196, 88, 0.92)"
                         }}></i>
                     </div>
-                    <div className='vg'>1.How can I use my Myntra Gift Card</div>
+                    <div className='vg'>2.How can I sign up for a channel promotion program?</div>
                 </div>
                 <div className='d-flex align-items-center'>
                     <div className='violet-dot justify-content-center align-items-center text-center' >
@@ -102,7 +102,25 @@ const Orderslide = () => {
                                 "rgba(254, 196, 88, 0.92)"
                         }}></i>
                     </div>
-                    <div className='vg'>1.How can I use my Myntra Gift Card</div>
+                    <div className='vg'>3.How do I redeem my Gift Card?</div>
+                </div>
+                <div className='d-flex align-items-center'>
+                    <div className='violet-dot justify-content-center align-items-center text-center' >
+                        <i class="fa-solid  fa-plus" style={{
+                            color:
+                                "rgba(254, 196, 88, 0.92)"
+                        }}></i>
+                    </div>
+                    <div className='vg'>4.How does corporate gifting work?</div>
+                </div>
+                <div className='d-flex align-items-center'>
+                    <div className='violet-dot justify-content-center align-items-center text-center' >
+                        <i class="fa-solid  fa-plus" style={{
+                            color:
+                                "rgba(254, 196, 88, 0.92)"
+                        }}></i>
+                    </div>
+                    <div className='vg'>5.What are the payment options? </div>
                 </div>
                 </div>
               

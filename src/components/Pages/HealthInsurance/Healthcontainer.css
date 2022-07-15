@@ -1,0 +1,77 @@
+#healthcontainer .f h1{
+    font-family: 'poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 65px;
+text-align: center;
+
+color: #9F3D9F;
+}
+#healthcontainer .f{
+    text-align: center;
+    margin-top: 104px;
+}
+#healthcontainer .f  h6{
+ 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: rgba(10, 12, 12, 0.88);
+}
+#healthcontainer .mt-29{
+    margin-top: 29px;
+}
+#healthcontainer .img-box{
+    width: 500px;
+}
+#healthcontainer .text-box{
+   text-align: justify;
+}
+#healthcontainer .mt-45{
+    margin-top: 45px;
+}
+#healthcontainer .mt-75{
+    margin-top: 75px;
+}
+ .health-suno-na-wrap {
+    padding-top: 4px;
+    /* margin-top: 166.33px; */
+    display: flex;
+    justify-content: center;
+    height: 717px;
+}
+ .text-above{
+    padding-top: 55px;
+    padding-bottom: 52px;
+    background: rgba(253, 150, 68, 0.18);
+  display: flex;
+  justify-content: center;
+}
+.text-above h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 65px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.93);
+}
+.health-white-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 49px;
+}
+.mt-172{
+    margin-top: 172px;
+}

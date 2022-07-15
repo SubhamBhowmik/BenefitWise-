@@ -9,7 +9,30 @@ body {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: rgba(128, 0, 128, 0.81) !important;
 }
+.react-multi-carousel-dot button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 1;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none;
 
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f2b146 !important;
+  padding: 0;
+  margin: 0;
+  margin-right: 6px;
+  outline: 0;
+  cursor: pointer;
+}
+.pl-64{
+padding-left: 64px;
+}
+.react-multi-carousel-dot--active button {
+  background: #800080;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -873,6 +896,9 @@ color: #FFFFFF;
     border-radius: 10px;
   }
 
+  .pl-64{
+    padding-left: 20px;
+    }
   .font-50 {
     font-size: 20px;
   }

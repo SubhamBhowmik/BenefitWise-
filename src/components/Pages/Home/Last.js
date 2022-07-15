@@ -65,8 +65,7 @@ const Last = () => {
 
               <div className="lorem-mt">
                 <h6 class="card-subtitle text1 text-muted">
-                  Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consecte
-                  Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consecte
+                No strings Attached! There are no charges on these services for 6 months. Enjoy all the benefits, and pay once you are satisfied with the results.
                 </h6>
               </div>
               <div className="k-wrap">
@@ -97,8 +96,8 @@ const Last = () => {
 
               <div className="lorem-mt">
                 <h6 class="card-subtitle text1 text-muted">
-                  Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consecte
-                  Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consecte
+                Benefits are offered at best and affordable prices thus provide the benefit of scale in terms of cost to our consumers. 
+
                 </h6>
               </div>
               <div className="k-wrap">
@@ -122,8 +121,7 @@ const Last = () => {
 
               <div className="lorem-mt">
                 <h6 class="card-subtitle text1 text-muted">
-                  Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consecte
-                  Lorem ipsum dolor sit amet. 33 internos vitae aut error tenetur ea iure aspernatur. Qui quia consecte
+                We deliver numbers of Gift Cards with absolutely no additional charges that helps in providing flexibility to scale up or down without any cost .
                 </h6>
               </div>
               <div className="k-wrap">
