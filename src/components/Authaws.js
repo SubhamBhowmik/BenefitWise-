@@ -15,11 +15,11 @@ export default function App() {
         console.log("user",user)
         console.log("user",user)
         return <>
-          <main>
+         
             <h1>Hello {user.username}</h1>
 
             <button onClick={signOut}>Sign out</button>
-          </main>
+         
         </>
       }
 

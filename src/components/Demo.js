@@ -116,7 +116,7 @@ const Demo = () => {
   return (
     <>
   <Authaws/>
-
+  <i className="bi bi-eye-slash"></i>
       {/* <div>
         <section class="" style={{position:"relative",background:"orange"}}>
         <img src="./images/footer/bg.png" className='img-fluid' style={{ width: "100%", position: "absolute" }} alt="" />

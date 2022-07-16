@@ -30,7 +30,7 @@ const LoginDialogpage = () => {
     <>
 
       <div>
-        <button class="login-btn"  >
+        <button class="login-btn"  onClick={()=>setOpen(true)}>
           <div className="d-flex align-items-center  px-2 text-decoration-none  text-white ">
             Login
             <i class=" fa-solid fa-user" style={{ marginLeft: ".3rem" }}></i>
@@ -40,7 +40,7 @@ const LoginDialogpage = () => {
 
 
 
-{/* 
+ 
         <Dialog
           className=''
           open={open}
@@ -49,20 +49,17 @@ const LoginDialogpage = () => {
           aria-describedby="alert-dialog-description"
         >
 
-          {
-
-          state ?
-
-           <Dialoglogin handleOtpopen={handleOtpopen}/> :
          
-           <DialogOtp/>
+
+           <Dialoglogin handleOtpopen={handleOtpopen}/>          
+     
             
-          }
+          
 
 
 
 
-        </Dialog> */}
+        </Dialog> 
       </div>
     </>
   )
