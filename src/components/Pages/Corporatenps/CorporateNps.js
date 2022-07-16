@@ -1,12 +1,15 @@
-import React from 'react'
-import Nav from '../../Nav/Nav'
+import React,{useEffect} from 'react'
+import Navbar from "../../Navbar"
 import Npscontainer from './Npscontainer'
 import Npsheader from './Npsheader'
 import Footer from '../../Footer'
 const CorporateNps = () => {
+  useEffect(() => {
+    window.scrollTo(0,0)
+    }, [])
   return (
     <>
-        <Nav/>
+        <Navbar/>
         <Npsheader/>
         <Npscontainer/>
         <Footer/>

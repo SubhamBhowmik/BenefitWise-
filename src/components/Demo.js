@@ -64,6 +64,7 @@ import Contact from './Pages/Bookdemo/Contact';
 import Newswiper from './Pages/Employee perks/Newswiper';
 import NewEpcarousel from './Pages/Employee perks/NewEpcarousel'
 import Authaws from './Authaws'
+import AuthSignflow from './AuthSignflow/AuthSignflow';
 
 const Demo = () => {
   const c3 = {
@@ -115,8 +116,7 @@ const Demo = () => {
 
   return (
     <>
-  <Authaws/>
-  <i className="bi bi-eye-slash"></i>
+ <AuthSignflow/>
       {/* <div>
         <section class="" style={{position:"relative",background:"orange"}}>
         <img src="./images/footer/bg.png" className='img-fluid' style={{ width: "100%", position: "absolute" }} alt="" />

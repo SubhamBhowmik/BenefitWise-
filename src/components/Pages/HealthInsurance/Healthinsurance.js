@@ -1,14 +1,17 @@
-import React from 'react'
-import Nav from '../../Nav/Nav'
+import React,{useEffect} from 'react'
+import Navbar from '../../Navbar'
 import Healthcontaner from './Healthcontaner'
 import Healthheader from './Healthheader'
 import Testimonial from '../Home/Testimonial'
 import Healthlast from './Healthlast'
 import Footer from '../../Footer'
 const Healthinsurance = () => {
+  useEffect(() => {
+    window.scrollTo(0,0)
+    }, [])
   return (
     <>
-      <Nav />
+      <Navbar />
       <Healthheader />
       <Healthcontaner/>
       <Testimonial/>

@@ -2,8 +2,11 @@ import React from 'react'
 import './newhomecard.css'
 import NewFlip from './NewFlip'
 import NewHcard from '../../Cardbox/New/NewHcard'
+import { useHistory } from 'react-router-dom'
+
 const Newhomecard = () => {
-  const card5= {
+  const history=useHistory()
+  const card5 = {
     img: "./images/cardholder/5.svg",
     title1: "Corporate National ",
     title2: "Pension Scheme",
@@ -23,21 +26,21 @@ const Newhomecard = () => {
     title1: "Employee perks ",
     title2: " ",
     subtitle: " Browse more than 500+ online and offline options to motivate and reward your employees.",
-    bg:"rgba(14, 90, 205, 0.36)"
+    bg: "rgba(14, 90, 205, 0.36)"
   }
   const card2 = {
     img: "./images/cardholder/2.png",
     title1: "Rewards & recognition ",
     title2: "programme",
     subtitle: " Reward your employees for their dedication and constant efforts.",
-    bg:"rgba(14, 90, 205, 0.36)"
+    bg: "rgba(14, 90, 205, 0.36)"
   }
   const card3 = {
     img: "./images/cardholder/3.png",
     title1: "Food Card",
     title2: "",
     subtitle: " We offer food cards that can be availed on food applications as well as Food Outlets.",
-    bg:"rgba(14, 90, 205, 0.36)"
+    bg: "rgba(14, 90, 205, 0.36)"
   }
   return (
     <>
@@ -61,10 +64,15 @@ const Newhomecard = () => {
             </div>
             <div className="new-card-wrap mt-mb-89">
               <NewHcard card={card3} />
-              <NewHcard card={card4} />
+              <div onClick={()=>history.push('/healthinsurance')}>
+                <NewHcard card={card4} />
+              </div>
             </div>
             <div className='third-wrap'>
-              <NewHcard card={card5} />
+              <div onClick={()=>history.push('/corporateNPS')}>
+                <NewHcard card={card5} />
+              </div>
+
             </div>
 
 
