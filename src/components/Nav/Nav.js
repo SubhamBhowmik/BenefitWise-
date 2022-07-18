@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link,withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import './Navigation.css';
-import { Avatar } from '@mui/material'
+import { Avatar, ListItem, List } from '@mui/material'
 import Fade from 'react'
-function Navbar({history}) {
+import { Auth, Hub } from 'aws-amplify'
+function Navbar({ history, signOut }) {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -25,11 +26,11 @@ function Navbar({history}) {
   }, []);
 
   window.addEventListener('resize', showButton);
-  const getColor=(curr)=>{
-    if(history.location.pathname===curr){
-     return "#800080"
+  const getColor = (curr) => {
+    if (history.location.pathname === curr) {
+      return "#800080"
     }
-   }
+  }
   return (
     <>
       <nav className='navbarr' id='nav' >
@@ -37,6 +38,7 @@ function Navbar({history}) {
           <Link to='/' className='navbar-logo' onClick={closemenu}>
             <img className='nk' src="./images/nav/BENIFIT WISE-green.svg" alt="" />
           </Link>
+
           <div className=' input-search' id="navbarNav">
             <input type="" className='' placeholder='search' />
             <i class="bi bi-search"></i>
@@ -59,7 +61,7 @@ function Navbar({history}) {
                 >
                   <p>Reward &Recognition</p>
                 </Link>
-                <div style={{height:"4px",background:getColor('/rewards&recognition')}}></div>
+                <div style={{ height: "4px", background: getColor('/rewards&recognition') }}></div>
               </li>
               <li className='nav-item'>
                 <Link
@@ -69,7 +71,7 @@ function Navbar({history}) {
                 >
                   <p>FoodCard </p>
                 </Link>
-                <div style={{height:"4px",background:getColor('/foodcard')}}></div>
+                <div style={{ height: "4px", background: getColor('/foodcard') }}></div>
               </li>
               <li className='nav-item'>
                 <Link
@@ -79,7 +81,7 @@ function Navbar({history}) {
                 >
                   <p>Channel Incentivisation</p>
                 </Link>
-                <div style={{height:"4px",background:getColor('/channelincentivisation')}}></div>
+                <div style={{ height: "4px", background: getColor('/channelincentivisation') }}></div>
               </li>
               <li className='nav-item'>
                 <Link
@@ -89,19 +91,21 @@ function Navbar({history}) {
                 >
                   <p> Employee Perks</p>
                 </Link>
-                <div style={{height:"4px",background:getColor('/employeperks')}}></div>
+                <div style={{ height: "4px", background: getColor('/employeperks') }}></div>
               </li>
-              <li className='nav-item'>
-                <Link
-                  to='/B'
-                  className='nav-links'
-                  onClick={closemenu}
-                >
-                  <div className="d-flex justify-content-center">
-                    <Avatar alt="Remy Sharp" src="" />
-                  </div>
+              <li className='nav-item padd '>
 
-                </Link>
+                <div class="">
+                  <div class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <Avatar src='' />
+                  </div>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <div className='signout' onClick={()=>Auth.signOut()}>
+                      <i class="fa fa-sign-out" aria-hidden="true"></i> SignOut
+                    </div>
+                  </div>
+                </div>
+
               </li>
 
             </ul>

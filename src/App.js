@@ -31,6 +31,7 @@ import Newcheckout from './components/Pages/Checkout/Newcheckout';
 import Healthinsurance from './components/Pages/HealthInsurance/Healthinsurance';
 import CorporateNps from './components/Pages/Corporatenps/CorporateNps';
 import Authaws from '../src/components/Authaws'
+import AuthSignflow from './components/AuthSignflow/AuthSignflow';
 const App = () => {
   return (
     <>
@@ -66,6 +67,7 @@ const App = () => {
           <Route path='/refundpolicy' exact component={Refundpolicy} />
           <Route path='/healthinsurance' exact component={Healthinsurance} />
           <Route path='/corporateNPS' exact component={CorporateNps} />
+          <Route path='/authentication' exact component={AuthSignflow} />
          
           
         </Switch>

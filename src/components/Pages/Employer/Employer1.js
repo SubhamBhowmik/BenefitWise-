@@ -6,13 +6,13 @@ import Emlast1 from './Emlast1'
 import Footer from "../../Footer"
 import Bookdemo from '../Bookdemo/Bookdemo'
 import Nav from '../../Nav/Nav'
-const Employer1 = () => {
+const Employer1 = ({signOut}) => {
   useEffect(() => {
     window.scrollTo(0,0)
     }, [])
   return (
 <>
-  <Nav/>
+  <Nav signOut={signOut}/>
   <Emploheader1/>
   <Testimonial/>
 
