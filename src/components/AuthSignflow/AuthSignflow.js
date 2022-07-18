@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { Auth, Hub } from 'aws-amplify'
 import Dialoglogin from '../Pages/Login/Dialoglogin'
-import { useHistory } from 'react-router-dom'
+import { useHistory,Redirect } from 'react-router-dom'
 import { Dialog } from 'material-ui-core'
 import Employer1 from '../Pages/Employer/Employer1'
 
 const AuthSignflow = () => {
     const initialState = {
-        username: "", password: "", email: "", authCode: "", code: "", newpassword: "", formType: "signUp"
+        username: "", password: "", email: "", authCode: "", code: "", newpassword: "", formType: "signIn"
     }
     const [user, updateUser] = useState(null)
     const [loader, setloader] = useState(true)
@@ -35,7 +35,7 @@ const AuthSignflow = () => {
 
                 case 'signOut':
                     console.log(data, 'user signed out');
-                    updateFormState(() => ({ ...formState, formType: "signUp" }))
+                    updateFormState(() => ({ ...formState, formType: "signIn" }))
                     break;
 
             }
@@ -60,11 +60,15 @@ const AuthSignflow = () => {
     const signUp = async () => {
         // const { username, password, email } = formState
         // await Auth.signUp({ username, password, attributes: { email } })
+     try {
         const { username, password } = formState
-        await Auth.signUp({ username, password })
+        await Auth.signUp({ username, password }) 
         updateFormState(() => ({ ...formState, formType: "confirmSignUp" }))
+     } catch (error) {
+       console.log(error);
+     
     }
-
+    }
     const confirmSignUp = async () => {
         const { username, authCode } = formState
         await Auth.confirmSignUp(username, authCode)
@@ -112,9 +116,8 @@ const AuthSignflow = () => {
      
 
     }
-    const signOut = () => {
-        Auth.signOut()
-    }
+    
+
 
 
     const [passwordType, setPasswordType] = useState("password");
@@ -404,7 +407,7 @@ const AuthSignflow = () => {
             {
                 formType === 'signedIn' && (
                     <div>
-                        <Employer1 signOut={signOut} />
+                        <Employer1  />
 
                     </div>
                 )

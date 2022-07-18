@@ -4,7 +4,7 @@ import './Navigation.css';
 import { Avatar, ListItem, List } from '@mui/material'
 import Fade from 'react'
 import { Auth, Hub } from 'aws-amplify'
-function Navbar({ history, signOut }) {
+function Navbar({ history }) {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -12,7 +12,12 @@ function Navbar({ history, signOut }) {
   const closemenu = () => setClick(false);
 
 
-
+  const signOut = () => {
+    Auth.signOut()
+  
+    history.push('/authentication')
+  
+}
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -100,7 +105,7 @@ function Navbar({ history, signOut }) {
                     <Avatar src='' />
                   </div>
                   <div class="dropdown-menu dropdown-menu-right">
-                    <div className='signout' onClick={()=>Auth.signOut()}>
+                    <div className='signout' onClick={signOut}>
                       <i class="fa fa-sign-out" aria-hidden="true"></i> SignOut
                     </div>
                   </div>
