@@ -113,12 +113,14 @@ const AuthSignflow = () => {
     const signIn = async () => {
 
 
-        setloader(false)
         const { username, password } = formState
-
+        setTimeout( setloader(false), 2000)
         await Auth.signIn(username, password).then(data => {
+         
             alert('Sign In Successful')
+            setTimeout( setloader(true), 1000)
             updateFormState(() => ({ ...formState, formType: "signedIn" }))
+         
         }
         ).catch(error=>
            {
@@ -266,7 +268,7 @@ const AuthSignflow = () => {
                                                     onChange={handleChange}
                                                     pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
                                                 />
-                                                <span>* Minimum length should be 8 and includes at least 1 letter,1 number,1 special character</span>
+                                                <span>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                             </div>
 
                                             <div className="eye" onClick={togglePassword}>
@@ -450,7 +452,7 @@ const AuthSignflow = () => {
                                             onChange={handleChange}
                                             pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
                                         />
-                                        <span>* Minimum length should be 8 and includes at least 1 letter,1 number,1 special character</span>
+                                        <span>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                     </div>
 
                                     <div className="eye" onClick={togglePassword}>
@@ -639,7 +641,7 @@ const AuthSignflow = () => {
                                                         onChange={handleChange}
                                                         pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
                                                     />
-                                                    <span>* Minimum length should be 8 and includes at least 1 letter,1 number,1 special character</span>
+                                                    <span>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                                 </div>
                                                 <div className="eye" onClick={togglePassword}>
                                                     {passwordType === "password" ?
