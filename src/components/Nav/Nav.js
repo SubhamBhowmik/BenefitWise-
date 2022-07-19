@@ -15,7 +15,7 @@ function Navbar({ history }) {
   const signOut = () => {
     Auth.signOut()
   
-    history.push('/authentication')
+    history.push('/signin')
   
 }
   const showButton = () => {
