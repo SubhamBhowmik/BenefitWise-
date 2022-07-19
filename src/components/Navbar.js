@@ -64,7 +64,7 @@ const Navbar = ({ history }) => {
               </li>
 
               <li class="nav-item temp-mx d-flex align-items-center huya">
-                <Link to='/authentication'>
+                <Link to='/signin'>
                   <button class="login-btn"  >
                     <div className="d-flex align-items-center  px-2 text-decoration-none  text-white ">
                       Login

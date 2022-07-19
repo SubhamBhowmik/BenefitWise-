@@ -32,20 +32,22 @@ box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 62px;
 }
 #ss .slider {
-    z-index: 2;
-    cursor: pointer;
-    top: 0;
-    left: 9px;
-    right: 0;
-    bottom: 0;
-    width: 130px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    transition: .4s;
+  z-index: 2;
+  cursor: pointer;
+  top: 0;
+  left: 9px;
+  right: 0;
+  bottom: 0;
+  width: 130px;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: .4s;
+  margin: 0px;
+  padding: 0px;
 }
 #ss .switch-text {
     margin-left: 85px;
@@ -80,6 +82,9 @@ box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
   .mt-100{
     margin-top: 177px;
   }
+  .mt-80{
+    margin-top: 80px;
+  }
   .loader{
     position: absolute;
     height: 10px;
@@ -100,4 +105,22 @@ box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
 .mt-55{
   margin-top: 55px;
+}
+#login span {
+  margin-top: 5px;
+   font-size: 12px;
+   padding: 0px;
+   color: red;
+   display: none;
+}
+#login  input:invalid~span{
+  display: block;
+  display: flex;
+  flex: 1;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+#login input{
+  width: 422px;
 }

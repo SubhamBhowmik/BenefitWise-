@@ -373,7 +373,7 @@ border-radius: 8.30983px;
 .bg-login {
   background: url('../public/images/login/1.svg')  no-repeat;
   background-size: cover;
-  height: 590px;
+  height:100%;
   width: 598px;
 }
 
