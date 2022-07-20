@@ -37,11 +37,11 @@
   /* border: 4px solid rgb(23 23 23 / 96%); */
   border-radius: 62px;
 }
-
-.switch-text{
-  margin-left: 137px;
+.switch-text {
+  margin-left: 68px;
   font-size: 26px;
   font-weight: 600;
+  padding-top: 1;
 }
 /* Hide default HTML checkbox */
 .switch input {
@@ -121,17 +121,13 @@ input:checked+.slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-.slider h2{
-  padding-top: 11px;
+.slider h2 {
+  padding-top: 18px;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 28px;
-/* identical to box height, or 88% */
-
-
-
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 28px;
 }
 #s2 .switch  h5{
   padding-left: 25px;
@@ -247,6 +243,11 @@ line-height: 28px;
 
 
 
+}
+.em-wrap{
+ display: flex;
+ justify-content: center;
+ gap: 20px;
 }
 
 @media (max-width:768px) {

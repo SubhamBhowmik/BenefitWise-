@@ -12,6 +12,15 @@ const AuthSignflow = () => {
     const [user, updateUser] = useState(null)
     const [loader, setloader] = useState(true)
     const [loader1, setloader1] = useState(true)
+    const [show, setshow] = useState(true)
+    const [show1, setshow1] = useState(true)
+    const [show2, setshow2] = useState(true)
+    const [show3, setshow3] = useState(true)
+
+
+
+
+
     const [formState, updateFormState] = useState(initialState)
 
     const checkUser = async () => {
@@ -44,7 +53,12 @@ const AuthSignflow = () => {
     }
 
     useEffect(() => {
-
+        console.log(formState);
+        setshow(true)
+        setshow1(true)
+        setshow2(true)
+        setshow3(true)
+        setstate(false)
         checkUser();
         setAuthListener()
 
@@ -52,7 +66,9 @@ const AuthSignflow = () => {
 
 
 
+
     const handleChange = (e) => {
+
         e.persist();
         updateFormState(() => ({ ...formState, [e.target.name]: e.target.value }))
     }
@@ -62,25 +78,35 @@ const AuthSignflow = () => {
         // const { username, password, email } = formState
         // await Auth.signUp({ username, password, attributes: { email } })
         try {
-            setloader1(false)
+            setshow(false)
+            setshow1(false)
+
+
             const { username, password } = formState
             if (username && password) {
                 await Auth.signUp({ username, password })
                 alert('Verification code has been sent to your Email')
                 updateFormState(() => ({ ...formState, formType: "confirmSignUp" }))
+                setshow(true)
+                setshow1(true)
             } else {
+                setshow(false)
+                setshow1(false)
+
                 alert('Invalid')
-                setloader1(true)
+
             }
 
         } catch (error) {
             console.log(error.message);
             console.log(error.code);
+
             setloader1(true)
             switch (error.code) {
                 case "UsernameExistsException":
                     alert('Email already Exist,Please Sign In')
                     updateFormState(() => ({ ...formState, formType: "signIn" }))
+                     setshow(true)
                     break;
                 case "InvalidPasswordException":
                     alert(error.message)
@@ -113,41 +139,50 @@ const AuthSignflow = () => {
     const signIn = async () => {
 
 
+        setshow2(false)
+        setshow3(false)
+
+
         const { username, password } = formState
-        setTimeout( setloader(false), 2000)
+        setTimeout(setloader(false), 2000)
         await Auth.signIn(username, password).then(data => {
-         
+
             alert('Sign In Successful')
-            setTimeout( setloader(true), 1000)
+            setTimeout(setloader(true), 1000)
             updateFormState(() => ({ ...formState, formType: "signedIn" }))
-         
+            setshow2(true)
+            setshow3(true)
+
         }
-        ).catch(error=>
-           {
+        ).catch(error => {
             console.log(error);
             alert(error.message)
             setloader(true)
-           } 
-            )
+        }
+        )
 
 
 
     }
     const forgetPassword = async () => {
-
+        setshow(false)
         const { username } = formState
 
         await Auth.forgotPassword(username)
             .then(data => {
+
                 updateFormState(() => ({ ...formState, formType: "confirmForgetPassword" }))
+
                 alert('Verification code has been send')
+                setshow(true)
+
             }
 
             )
             .catch(error => {
                 console.log(error);
                 alert(error.message)
-                updateFormState(() => ({ ...formState, formType: "signIn" }))
+                
                 return;
 
             }
@@ -164,12 +199,25 @@ const AuthSignflow = () => {
     }
     const resetPassword = async () => {
         try {
+            setshow(false)
             const { username, code, newpassword } = formState
             await Auth.forgotPasswordSubmit(username, code, newpassword)
-                .then(data => console.log(data))
-                .catch(err => console.log(err));
-            alert(' Reset password Successful')
-            updateFormState(() => ({ ...formState, formType: "signIn" }))
+                .then(data => {
+                    console.log(data)
+                    setshow(true)
+                    alert(' Reset password Successful')
+                   
+                    updateFormState(() => ({ ...formState, formType: "signIn" }))
+                }
+
+                )
+                .catch(err => {
+                    console.log(err)
+                    alert(err.message)
+                    updateFormState(() => ({ ...formState, formType: "confirmForgetPassword" }))
+                });
+
+
         } catch (error) {
             alert(' Reset password Unsuccessful')
         }
@@ -189,11 +237,20 @@ const AuthSignflow = () => {
         setPasswordType("password")
     }
 
+    const toggleColor = () => {
+        console.log('toggle-color', bg1);
+        if (bg1 === "white") {
+            setbg1("black")
+
+        }
+
+    }
 
     const history = useHistory()
     const [bg1, setbg1] = useState('white')
     const [bg2, setbg2] = useState('black')
     const [state, setstate] = useState(false)
+    const [state1, setstate1] = useState(false)
 
 
 
@@ -217,8 +274,18 @@ const AuthSignflow = () => {
 
     }
 
+    const redirectSignin = () => {
+        updateFormState(() => ({ ...formState, formType: "signIn" }))
+        setshow(true)
+        setshow1(true)
+    }
 
-
+    const redirectSignup = () => {
+        updateFormState(() => ({ ...formState, formType: "signUp" }))
+        setshow(true)
+        setshow2(true)
+        setstate(false)
+    }
 
 
     return (
@@ -249,7 +316,7 @@ const AuthSignflow = () => {
 
 
 
-                                        <div className='text-center text-format text-violet mb-5 px-2 '>
+                                        <div className='text-center  login-text text-violet mb-50 '>
                                             Create New Account
                                         </div>
 
@@ -260,15 +327,15 @@ const AuthSignflow = () => {
                                                 onChange={handleChange}
 
                                             />
-                                            <span>*Enter a  valid Email  </span>
+                                            <span hidden={show}>*Enter a  valid Email  </span>
                                         </div>
-                                        <div className="d-flex justify-content-center">
+                                        <div className="d-flex justify-content-left">
                                             <div className='mb-20'>
                                                 <input id="password" type={passwordType} name="password" class="form-control " placeholder=" Password" required="required" data-error="password is required."
                                                     onChange={handleChange}
                                                     pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
                                                 />
-                                                <span>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
+                                                <span hidden={show1}>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                             </div>
 
                                             <div className="eye" onClick={togglePassword}>
@@ -279,13 +346,26 @@ const AuthSignflow = () => {
                                         </div>
                                         <div id='loginpage'>
                                             <div className='sw' id='ss'>
-                                                <label class="switch " onClick={colorChange} >
+                                                <label class="switch "  >
                                                     <input type="checkbox" />
                                                     <span class="slider">
                                                         <div className='switch-text '>
 
-                                                            <div className=' ' style={{ color: bg1 }}> <h2>Employee</h2></div>
-                                                            <div className='  float-right' style={{ color: bg2 }}> <h2>Employer</h2> </div>
+                                                            {
+                                                                state ?
+
+                                                                    <div className='switch-text  '>
+                                                                        <h2 className='text-dark  switch-text-font' onClick={() => { setstate(!state) }}>Employee</h2>
+                                                                        <h2 className='text-white  switch-text-font' onClick={() => { setstate(!state) }}>Employer</h2>
+                                                                    </div>
+                                                                    :
+                                                                    <div className='switch-text'>
+                                                                        <h2 className='text-white  switch-text-font' onClick={() => { setstate(!state) }}>Employee</h2>
+                                                                        <h2 className='text-dark switch-text-font' onClick={() => { setstate(!state) }}>Employer</h2>
+                                                                    </div>
+
+
+                                                            }
                                                         </div>
 
 
@@ -297,7 +377,7 @@ const AuthSignflow = () => {
                                         <div className="hover-overlay text-center mt-2  ripple text-decoration-none ripple rounded hover-zoom  border-radiuss">
                                             <div id='loginpage'>
                                                 <button className='my-btn-2 bg-violet text-white' style={{ width: "100%" }} onClick={signUp}>
-                                                    <div className='loader' hidden={loader1}>
+                                                    <div className='loader' hidden={true}>
                                                         <div class="spinner-border text-success" role="status">
                                                             <span class="sr-only">Loading...</span>
                                                         </div>
@@ -323,8 +403,8 @@ const AuthSignflow = () => {
 
                                         <div class="col mt-100 text-center">
 
-                                            <div className='text-decoration-none text-center forget-text'
-                                                onClick={() => { updateFormState(() => ({ ...formState, formType: "signIn" })) }}
+                                            <div className='text-decoration-none text-center forget-text-1'
+                                                onClick={redirectSignin}
                                             >Already have an Account? Click here to Sign In</div>
                                         </div>
 
@@ -434,7 +514,7 @@ const AuthSignflow = () => {
 
 
 
-                                <div className='text-center text-format text-violet mb-5 px-2 '>
+                                <div className='text-center login-text mb-50 text-violet '>
                                     Login
                                 </div>
 
@@ -442,7 +522,7 @@ const AuthSignflow = () => {
                                     <input id="username" type="email" name="username" class="form-control " placeholder=" Username" required="required" data-error="username is required."
                                         onChange={handleChange}
                                     />
-                                    <span>*Enter a  valid Email  </span>
+                                    <span hidden={show2}>*Enter a  valid Email  </span>
                                 </div>
 
 
@@ -452,7 +532,7 @@ const AuthSignflow = () => {
                                             onChange={handleChange}
                                             pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
                                         />
-                                        <span>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
+                                        <span hidden={show2}>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                     </div>
 
                                     <div className="eye" onClick={togglePassword}>
@@ -464,33 +544,46 @@ const AuthSignflow = () => {
 
                                 <div class="col">
 
-                                    <div className=' forget-text text-decoration-none'
+                                    <div className=' forget-text-1 text-decoration-none'
                                         onClick={() => { updateFormState(() => ({ ...formState, formType: "forgetPassword" })) }}
                                     >Forgot password?
                                     </div>
                                 </div>
                                 <div id='loginpage'>
-                                    <div className='sw' id='ss'>
-                                        <label class="switch " onClick={colorChange} >
-                                            <input type="checkbox" />
-                                            <span class="slider">
-                                                <div className='switch-text '>
+                                            <div className='sw' id='ss'>
+                                                <label class="switch " >
+                                                    <input type="checkbox" />
+                                                    <span class="slider">
+                                                        <div className='switch-text '>
 
-                                                    <div className=' ' style={{ color: bg1 }}> <h2>Employee</h2></div>
-                                                    <div className='  float-right' style={{ color: bg2 }}> <h2>Employer</h2> </div>
-                                                </div>
+                                                            {
+                                                                state ?
+
+                                                                    <div className='switch-text '>
+                                                                        <h2 className='text-dark  switch-text-font' onClick={() => { setstate(!state) }}>Employee</h2>
+                                                                        <h2 className='text-white  switch-text-font' onClick={() => { setstate(!state) }}>Employer</h2>
+                                                                    </div>
+                                                                    :
+                                                                    <div className='switch-text'>
+                                                                        <h2 className='text-white  switch-text-font' onClick={() => { setstate(!state) }}>Employee</h2>
+                                                                        <h2 className='text-dark switch-text-font' onClick={() => { setstate(!state) }}>Employer</h2>
+                                                                    </div>
 
 
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
+                                                            }
+                                                        </div>
+
+
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
 
                                 <div className="hover-overlay text-center mt-2  ripple text-decoration-none ripple rounded hover-zoom  border-radiuss">
                                     <div id='loginpage'>
                                         <button className='my-btn-2 bg-violet text-white' style={{ width: "100%" }} onClick={signIn} >
                                             <div className='loader' hidden={loader}>
-                                                <div class="spinner-border text-success" role="status">
+                                                <div class="spinner-border text-white" role="status">
                                                     <span class="sr-only">Loading...</span>
                                                 </div>
                                             </div>
@@ -514,8 +607,8 @@ const AuthSignflow = () => {
 
                                 <div class="col text-center mt-80">
 
-                                    <div className='text-decoration-none forget-text'
-                                        onClick={() => { updateFormState(() => ({ ...formState, formType: "signUp" })) }}
+                                    <div className='text-decoration-none forget-text-1'
+                                        onClick={redirectSignup}
                                     >New User? Click here to SignUp</div>
                                 </div>
 
@@ -571,14 +664,14 @@ const AuthSignflow = () => {
                                                 <input id="username" type='email' name="username" class="form-control " placeholder="Enter Email " required="required" data-error="verification code is required"
                                                     onChange={handleChange}
                                                 />
-                                                <span>*Enter a  valid Email  </span>
+                                                <span hidden={show} >*Enter a  valid Email  </span>
                                             </div>
 
 
                                         </div>
                                         <div className="hover-overlay text-center mt-2  ripple text-decoration-none ripple rounded hover-zoom  border-radiuss">
                                             <div id='loginpage'>
-                                                <button className='my-btn-2 bg-violet text-white' style={{ width: "100%" }}
+                                                <button className='my-btn-2  bg-violet text-white' style={{ width: "100%" }}
                                                     onClick={forgetPassword}
                                                 >Send Code</button>
 
@@ -589,7 +682,7 @@ const AuthSignflow = () => {
 
                                         <div class="col mt-55 text-center">
 
-                                            <div className='text-decoration-none text-center forget-text'
+                                            <div className='text-decoration-none text-center forget-text-1'
                                                 onClick={() => { updateFormState(() => ({ ...formState, formType: "signIn" })) }}
                                             >Already have an Account? Click here to Sign In</div>
                                         </div>
@@ -633,7 +726,7 @@ const AuthSignflow = () => {
                                                 <input id="username" type='email' name="username" class="form-control " placeholder="Enter Email " required="required" data-error="verification code is required"
                                                     onChange={handleChange}
                                                 />
-                                                <span>*Enter a  valid Email  </span>
+                                                <span hidden={show}>*Enter a  valid Email  </span>
                                             </div>
                                             <div className='d-flex jusify-content-center'>
                                                 <div className='mb-20'>
@@ -641,7 +734,7 @@ const AuthSignflow = () => {
                                                         onChange={handleChange}
                                                         pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
                                                     />
-                                                    <span>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
+                                                    <span hidden={show} >* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                                 </div>
                                                 <div className="eye" onClick={togglePassword}>
                                                     {passwordType === "password" ?
@@ -669,7 +762,7 @@ const AuthSignflow = () => {
 
                                         <div class="col mt-55 text-center">
 
-                                            <div className='text-decoration-none text-center forget-text'
+                                            <div className='text-decoration-none text-center forget-text-1'
                                                 onClick={() => { updateFormState(() => ({ ...formState, formType: "signIn" })) }}
                                             >Already have an Account? Click here to Sign In</div>
                                         </div>

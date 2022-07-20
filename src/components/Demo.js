@@ -113,10 +113,27 @@ const Demo = () => {
     details: " Give your employees some extra benefits."
   }
 
-
+  const [state, setstate] = useState(true)
   return (
     <>
- <AuthSignflow/>
+
+      {
+        state ?
+
+          <div className='d-flex '>
+            <h2 className='text-dark switch-text-font' onClick={() => { setstate(!state) }}>Employee</h2>
+            <h2 className='text-danger switch-text-font' onClick={() => { setstate(!state) }}>Employer</h2>
+          </div>
+          :
+          <div className='d-flex'>
+            <h2 className='text-danger switch-text-font' onClick={() => { setstate(!state) }}>Employee</h2>
+            <h2 className='text-dark switch-text-font' onClick={() => { setstate(!state) }}>Employer</h2>
+          </div>
+
+
+      }
+
+
       {/* <div>
         <section class="" style={{position:"relative",background:"orange"}}>
         <img src="./images/footer/bg.png" className='img-fluid' style={{ width: "100%", position: "absolute" }} alt="" />

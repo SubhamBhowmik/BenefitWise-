@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Cardbox from '../../src/components/Cardbox/Cardbox'
@@ -26,23 +26,12 @@ const responsive = {
 const Multiswiper = () => {
   const [bg1, setbg1] = useState('white')
   const [bg2, setbg2] = useState('black')
-  const [state, setstate] = useState(false)
-  const colorChange = () => {
+  const [state, setstate] = useState(true)
+  useEffect(() => {
+  setstate(true)
+  }, [])
+  
 
-    setstate(!state);
-    switch (state) {
-      case true:
-        setbg1('black');
-        setbg2('white')
-        break;
-      case false:
-        setbg1('white');
-        setbg2('black')
-        break;
-
-
-    }
-  }
 
   const pricingcard1 = {
     title: "BASIC",
@@ -62,14 +51,28 @@ const Multiswiper = () => {
       <div className='text-center m-3' id='pricing-switch'>
 
         <div id='s2'>
-          <label class="switch " onClick={colorChange}>
+          <label class="switch " >
             <input type="checkbox" />
             <span class="slider">
-              <div className='switch-text d-flex justify-content-between'>
 
-                <div className='mt-2 ' style={{ color: bg1 }}><h5> Quarterly</h5></div>
-                <div className='mt-2  ml-4  float-right' style={{ color: bg2 }}> <h5 className='pad-l'>Yearly</h5></div>
-              </div>
+              {
+                state ?
+
+                  <div className='switch-text d-flex justify-content-between'>
+
+                    <div className='mt-2 ' style={{ color: 'white' }} onClick={()=>setstate(!state)}><h5> Quarterly</h5></div>
+                    <div className='mt-2  ml-4  float-right' style={{ color:'black'}} onClick={()=>setstate(!state)}> <h5 className='pad-l'>Yearly</h5></div>
+                  </div>
+                  :
+
+                  <div className='switch-text d-flex justify-content-between'>
+
+                    <div className='mt-2 ' style={{ color: 'black'}} onClick={()=>setstate(!state)}><h5> Quarterly</h5></div>
+                    <div className='mt-2  ml-4  float-right' style={{ color: 'white' }} onClick={()=>setstate(!state)}> <h5 className='pad-l'>Yearly</h5></div>
+                  </div>
+
+              }
+
 
 
             </span>
