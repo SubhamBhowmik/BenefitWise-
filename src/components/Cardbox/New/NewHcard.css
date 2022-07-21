@@ -1,7 +1,7 @@
 #newhcard .card--{
 
     width: 521px;
-    height: 647px;
+    height: 582px;
    
     
     background: white;
@@ -13,7 +13,7 @@
     text-align: center;
     padding-top: 47px;
 }
-#newhcard .card-- .first-div h1{
+/* #newhcard .card-- .first-div h1{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -22,21 +22,37 @@ line-height: 35px;
 
 
 color: rgba(0, 0, 0, 0.82);
+} */
+#newhcard .card-- .first-div h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.82);
 }
-#newhcard .card-- .second{
- padding-top: 42px;
+#newhcard .card-- .second {
+    padding-top: 30px;
 }
 
 #newhcard .img-box{
     height:208px;
     width: 351px;
 }
-#newhcard .card-- .third-div{
+/* #newhcard .card-- .third-div{
     padding-top: 31px;
     padding-left: 65px;
     text-align: justify;
     padding-right: 33px;
     height: 189px;
+} */
+#newhcard .card-- .third-div {
+    padding-top: 40px;
+    padding-left: 65px;
+    text-align: justify;
+    padding-right: 33px;
+    height: 150px;
 }
 #newhcard  .fout-div{
     padding-top: 44px;
@@ -44,16 +60,21 @@ color: rgba(0, 0, 0, 0.82);
     text-align: justify;
     padding-right: 65px;
 }
-#newhcard .card-- .third-div p{
+/* #newhcard .card-- .third-div p{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 22px;
 
-/* or 182% */
-
 
 color: rgba(37, 35, 35, 0.82);
+} */
+#newhcard .card-- .third-div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(37, 35, 35, 0.82);
 }
 #newhcard .card-- .fourth-div{
     padding-right: 35px;
@@ -61,26 +82,21 @@ color: rgba(37, 35, 35, 0.82);
     justify-content: right;
     /* margin-top: 83px; */
 }
-.more-{
-  
+.more- {
     cursor: pointer;
-    width: 116px;
-height: 61px;
-display: flex;
-justify-content: center;
-align-items: center;
-
-background: #C68CC6;
-border-radius: 20px;
+    width: 109px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C68CC6;
+    border-radius: 20px;
 }
-#newhcard .more- h3{
+#newhcard .more- h3 {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 28px;
-margin-bottom: 0px;
-/* identical to box height, or 143% */
-
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
 }

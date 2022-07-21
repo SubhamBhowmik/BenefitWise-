@@ -3,6 +3,7 @@ import './solutioncontainer.css'
 import * as Scroll from 'react-scroll';
 import { useLocation } from 'react-router-dom'
 import NewHcard from '../../Cardbox/New/NewHcard';
+import NewSolcard from '../../Cardbox/New/NewSolcard';
 const Solutioncontainer = () => {
     const location = useLocation()
     useEffect(() => {
@@ -64,7 +65,7 @@ const Solutioncontainer = () => {
 
                     <div class="sol-grid-container">
                         <div class="sol-item1">
-                          <NewHcard card={card1}/>
+                          <NewSolcard card={card1}/>
                         </div>
                         <div class="sol-item2">
                             <div className="p-text kylo ">
@@ -83,11 +84,11 @@ const Solutioncontainer = () => {
                             </div>
                         </div>
                         <div class="sol-item4">
-                        <NewHcard card={card2}/>
+                        <NewSolcard card={card2}/>
                         </div>
 
                         <div class="sol-item5">
-                        <NewHcard card={card3}/>
+                        <NewSolcard card={card3}/>
                         </div>
                         <div class="sol-item6">
                             <div className="p-text kylo">
@@ -105,10 +106,10 @@ const Solutioncontainer = () => {
                             </div>
                         </div>
                         <div class="sol-item8">
-                        <NewHcard card={card4}/>
+                        <NewSolcard card={card4}/>
                         </div>
                         <div class="sol-item9">
-                        <NewHcard card={card5}/>
+                        <NewSolcard card={card5}/>
                         </div>
                         <div class="sol-item10">
                             <div className="p-text kylo">

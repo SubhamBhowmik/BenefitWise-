@@ -14,7 +14,7 @@ const NewHcard = ({card}) => {
     
         <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
      
-        <div className="" id='newhcard' onClick={handleClick} >
+        <div className="" id='newhcard'  >
                 <div className="card-- hover-zoom shadow" >
                     <div className='first-div'>
                         <h1>{card.title1}</h1>
