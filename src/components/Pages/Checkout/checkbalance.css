@@ -1,6 +1,6 @@
 #checkbalance .box- {
     width: 845px;
-    height: 743px;
+    height: 651px;
     padding: 24px;
     display: flex;
     justify-content: center;
@@ -167,7 +167,7 @@ color: #000000;
     padding-right: 51px;
     display: flex;
     justify-content: space-between;
-    margin-top: 52px;
+    margin-top: 35px;
     margin-bottom: 9px;
 }
 
@@ -196,7 +196,7 @@ color: #000000;
     box-sizing: border-box;
     padding-left: 20px;
     width: 720px;
-    height: 67px;
+    height: 50px;
     font-size: 30px;
 
 
@@ -265,7 +265,7 @@ border: none!important;
     margin-right: 31px;
     margin-top: 32px;
     width: 720px;
-    height: 85px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
