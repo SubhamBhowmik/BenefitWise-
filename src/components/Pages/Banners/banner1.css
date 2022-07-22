@@ -1,24 +1,27 @@
 #subham .new-banner {
     position: relative;
     width: 100%;
-    height: 624px;
+    height: 500px;
     background-size: cover;
-
 }
-#subham .new-banner .cls1{
+#subham .new-banner .cls1 {
     position: absolute;
-    right:0;
-    bottom: 93px;
+    right: 86px;
+    top: 2px;
+    bottom: 83px;
+    height: 402px;
 }
-#subham .new-banner .cls3{
+#subham .new-banner .cls3 {
     position: absolute;
-    right:0;
-    bottom: 42px;
+    right: 73px;
+    top: 79px;
+    /* bottom: 66px; */
+    height: 364px;
 }
 
 #subham .main-wrap {
-    padding-left: 116px;
-    padding-top: 107px;
+    padding-left: 66px;
+    padding-top: 57px;
     padding-right: 10px;
 }
 
@@ -26,15 +29,13 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 42px;
     margin-bottom: 0px;
-
-
     color: rgba(255, 255, 255, 0.97);
 }
 
 #subham .main-wrap .second-div {
-    width: 424px;
+    width: 474px;
     margin-top: 20px;
 }
 
@@ -93,7 +94,7 @@ color: rgba(0, 0, 0, 0.86);
 
 }
 #subham .main-wrap .third-div{
-    margin-top: 57px;
+    margin-top: 34px;
     display: flex;
     gap: 29px;
 }

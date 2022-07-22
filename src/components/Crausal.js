@@ -28,11 +28,11 @@ const Crausal = () => {
       slidesPerView={1}
 
       pagination={{ clickable: true }}
-      navigation={false}
-      autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
+      navigation={true}
+      // autoplay={{
+      //     delay: 3000,
+      //     disableOnInteraction: false,
+      //   }}
       onSwiper={(swiper) => console.log(swiper)}
    
     >

@@ -1,5 +1,7 @@
-#subham .new-banner .cls2{
+#subham .new-banner .cls2 {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 46px;
+    top: 42px;
+    bottom: 83px;
+    height: 402px;
 }
