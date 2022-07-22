@@ -351,7 +351,7 @@ const AuthSignflow = () => {
                                             <div className='mb-20'>
                                                 <input id="password" type={passwordType} name="password" class="form-control " placeholder=" Password" required="required" data-error="password is required."
                                                     onChange={handleChange}
-                                                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                                                    pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
                                                 />
                                                 <span hidden={show1}>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                             </div>
@@ -548,7 +548,7 @@ const AuthSignflow = () => {
                                     <div className='mb-20'>
                                         <input id="password" type={passwordType} name="password" class="form-control " placeholder=" Password" required="required" data-error="password is required."
                                             onChange={handleChange}
-                                            pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                                            pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
                                         />
                                         <span hidden={show2}>* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                     </div>
@@ -750,7 +750,7 @@ const AuthSignflow = () => {
                                                 <div className='mb-20'>
                                                     <input id="password" type={passwordType} name="newpassword" class="form-control " placeholder=" New Password" required="required" data-error="password is required."
                                                         onChange={handleChange}
-                                                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                                                        pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
                                                     />
                                                     <span hidden={show} >* Minimum length should be 8 and includes at least 1 Uppercase,1 Lowercase,1 Number,1 Special character</span>
                                                 </div>

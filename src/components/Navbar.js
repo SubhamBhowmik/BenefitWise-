@@ -41,25 +41,25 @@ const Navbar = ({ history }) => {
                   <div className='font-weight-500 '>Home</div>
 
                 </Link>
-                <div style={{ height: "5px", background: getColor('/') }}></div>
+                <div style={{  background: getColor('/') }}  className="highlight"></div>
               </li>
 
               <li class="nav-item  mx-5 temp-ml">
                 <Link to='/solutions' class="nav-link active "  >Solutions</Link>
-                <div style={{ height: "5px", background: getColor('/solutions') }}></div>
+                <div style={{  background: getColor('/solutions') }}  className="highlight"></div>
               </li>
               <li class="nav-item mx-5">
                 <Link to='/pricing' class="nav-link active  "  >Pricing</Link>
-                <div style={{ height: "5px", background: getColor('/pricing') }}></div>
+                <div style={{  background: getColor('/pricing') }}  className="highlight"></div>
               </li>
               <li class="nav-item mx-5">
                 <Link to='/employeeperks' class="nav-link active  " >Employee Perks</Link>
-                <div style={{ height: "5px", background: getColor('/employeeperks') }}></div>
+                <div style={{  background: getColor('/employeeperks') }}  className="highlight"></div>
               </li>
               <li class="nav-item mx-5 ">
 
                 <Link to='/foodcardwallet' class=" nav-link active " >Foodcard Wallet</Link>
-                <div style={{ height: "5px", background: getColor('/foodcardwallet') }}></div>
+                <div style={{  background: getColor('/foodcardwallet') }} className="highlight"></div>
 
               </li>
 

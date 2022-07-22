@@ -26,13 +26,11 @@
 }
 
 #em9 .pri-header-right .text-cont h6 {
-    font-family: 'Poppins';
+    font-family: 'PT Sans Caption';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-
-
-    color: #000000;
+    font-size: 25px;
+    color: #A5A5A5;
 }
 
 .simple-text {
@@ -545,12 +543,12 @@
         margin-bottom: 0px;
     }
     #em9 .pri-header-right .text-cont h6 {
-        font-family: 'Poppins';
+        font-family: 'PT Sans Caption';
         font-style: normal;
         font-weight: 400;
         font-size: 8px;
+        color: #A5A5A5;
         line-height: 10px;
-        color: #000000;
     }
     #em9 .pri-header-right {
         padding-left: 32px;

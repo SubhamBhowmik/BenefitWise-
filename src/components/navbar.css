@@ -9,8 +9,16 @@ line-height: 30px;
 
 color: #000000;
 }
+.highlight{
+    height: 5px;
+    display: block;
+  }
 @media (max-width:768px) {
     .huya{
         padding-left: 16px;
+    }
+    .highlight{
+      height: 0px;
+      display: none;
     }
 }

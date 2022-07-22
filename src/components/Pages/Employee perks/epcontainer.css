@@ -448,5 +448,6 @@
         justify-content: left;
         align-items: center;
         margin-bottom: 1rem;
+        padding-left: 10px;
     }
 }

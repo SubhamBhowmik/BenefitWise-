@@ -5,6 +5,13 @@
     object-fit: cover;
 
 }
+#em2 .pri-header-right .text-cont h6 {
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #A5A5A5;
+}
 #em2 .new-{
     display: flex;
     justify-content: center;
@@ -167,11 +174,11 @@ color: rgba(0, 0, 0, 0.79);
         margin-bottom: 0px;
     }
     #em2 .pri-header-right .text-cont h6 {
-        font-family: 'Poppins';
+        font-family: 'PT Sans Caption';
         font-style: normal;
         font-weight: 400;
         font-size: 8px;
-        color: #000000;
+        color: #A5A5A5;
     }
     #em2 .pri-header-right {
         padding-top: 0px;
