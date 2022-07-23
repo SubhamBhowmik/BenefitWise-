@@ -2,7 +2,7 @@
     position: relative;
     background: url('../../../../public/images/employer5/bg.svg') center/100% no-repeat;
     background-size: cover;
-
+    height: 70vh;
     object-fit: cover;
 }
 
@@ -17,7 +17,8 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 52px;
+    font-size: 42px;
+    margin-bottom: 0px;
     color: #000000;
 }
 
@@ -25,7 +26,7 @@
     font-family: 'PT Sans Caption';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 22px;
     color: #A5A5A5;
 }
 
@@ -49,14 +50,13 @@
 
 .input--box input {
     box-sizing: border-box;
-
-
     width: 424px;
-    height: 70px;
+    height: 45px;
     background: rgba(255, 255, 255, 0.76);
     border: 1px solid rgba(0, 0, 0, 0.53);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 10px;
+    padding-left: 10px;
 }
 
 @media (max-width:768px) {

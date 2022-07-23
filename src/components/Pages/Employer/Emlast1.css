@@ -2,7 +2,7 @@
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 52px;
+font-size: 42px;
 
 color: #000000;
 }
@@ -10,25 +10,21 @@ color: #000000;
     padding-left: 96px;
     padding-top: 266px;
 }
-#flapo .prg-cer{
-    width: 412px;
-height: 95px;
-padding-top: 30px;
-
-background: rgba(128, 0, 128, 0.06);
-border-radius: 10px;
+#flapo .prg-cer {
+    width: 394px;
+    height: 59px;
+    padding-top: 14px;
+    background: rgba(128, 0, 128, 0.06);
+    border-radius: 10px;
 }
-#flapo .prg-cer h3{
+#flapo .prg-cer h3 {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-
-/* or 181% */
-
-text-align: center;
-
-color: rgba(0, 0, 0, 0.4);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.4);
 }
 #flapo .three-prg{
     margin-top: 126px;
@@ -39,7 +35,7 @@ justify-content: space-around;
     margin-top: 81px;
 }
 .mb-290{
-    margin-bottom: 290px;
+    margin-bottom: 204px;
 }
 .mt-174{
     margin-top: 174px;

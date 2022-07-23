@@ -5,6 +5,7 @@ import ArticleIcon from '@mui/icons-material/Article';
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import NoteAltIcon from '@mui/icons-material/NoteAlt';
 import CheckBalance from '../Checkout/CheckBalance';
+import { Fade } from 'react-reveal';
 const Employer2header = () => {
     return (
         <>
@@ -24,8 +25,10 @@ const Employer2header = () => {
                         </div>
                         <div class="pri-header-right" style={{ width: "50%" }}>
                             <div className="text-cont">
-                                <h1>Rewards & Recognition</h1>
+                               <Fade right duraton={2500}>
+                               <h1>Rewards & Recognition</h1>
                                 <h6 className='po'>A simply way of saving your TAX through food cards</h6>
+                               </Fade>
                             </div>
                         </div>
                     </div>
@@ -37,7 +40,13 @@ const Employer2header = () => {
                 <div className='container-fluid' id='em2'>
                     <div className='czx-wrapper'>
                         <div className=' simple-text d-flex justify-content-center'>
-                            <h1>Simple Onboarding</h1>
+
+                            <div>
+                                <h1>   Step for running rewards</h1>
+                                <h1>and recognition program</h1>
+
+                            </div>
+
                         </div>
                         <div className='d-flex justify-content-center'>
 
@@ -94,160 +103,160 @@ const Employer2header = () => {
 
 
                 <div className='container mt-whole-row'>
-                <div className="col-md-12 d-flex justify-content-center">
-                    <div className="row mt-whole-row d-flex justify-content-center">
-                        <div className="col-md-6 d-flex justify-content-center">
-                            <div className='left-table '>
-                                <div className="d-flex justify-content-center">
-                                    <div className='create-cmp '>
-                                        <h2>Create your Campaign</h2>
+                    <div className="col-md-12 d-flex justify-content-center">
+                        <div className="row mt-whole-row d-flex justify-content-center">
+                            <div className="col-md-6 d-flex justify-content-center">
+                                <div className='left-table '>
+                                    <div className="d-flex justify-content-center">
+                                        <div className='create-cmp '>
+                                            <h2>Create your Campaign</h2>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className='mt-70'>
-                                    <div className='input--box'>
-                                        <h6>Campaign Name</h6>
-                                        <input type="text" />
+                                    <div className='mt-70'>
+                                        <div className='input--box'>
+                                            <h6>Campaign Name</h6>
+                                            <input type="text" />
+                                        </div>
+                                        <div className='input--box'>
+                                            <h6>Campaign Brand</h6>
+                                            <input type="text" />
+                                        </div>
+                                        <div className='input--box'>
+                                            <h6>No of Participant</h6>
+                                            <input type="text" />
+                                        </div>
+
+
                                     </div>
-                                    <div className='input--box'>
-                                        <h6>Campaign Brand</h6>
-                                        <input type="text" />
-                                    </div>
-                                    <div className='input--box'>
-                                        <h6>No of Participant</h6>
-                                        <input type="text" />
-                                    </div>
 
+                                    <form action="">
 
-                                </div>
+                                        <div className="last-input-wrap">
+                                            <div className="input-box">
+                                                <input type="checkbox" id="" name="EB points" value="EB points" />
+                                                <label for="EB points"><h4>EB points</h4> </label>
+                                                <h6>
+                                                    with the EB points ,employees can </h6>
+                                                <h6> purchase their favourite gift cards</h6>
+                                                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
 
-                                <form action="">
+                                                            <CheckBalance />
 
-                                    <div className="last-input-wrap">
-                                        <div className="input-box">
-                                            <input type="checkbox" id="" name="EB points" value="EB points" />
-                                            <label for="EB points"><h4>EB points</h4> </label>
-                                            <h6>
-                                                with the EB points ,employees can </h6>
-                                            <h6> purchase their favourite gift cards</h6>
-                                            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                                                <div class="modal-dialog" role="document">
-                                                    <div class="modal-content">
-
-                                                      <CheckBalance/>
-
+                                                        </div>
                                                     </div>
                                                 </div>
+
                                             </div>
+                                            <div className="input-box">
+                                                <input type="checkbox" id="" data-toggle="modal" data-target="#exampleModalLong" name="EB points" value="gift card" />
+                                                <label for="EB points"><h4>Gift Cards</h4> </label>
+                                                <h6>
+                                                    with the EB points ,employees can </h6>
+                                                <h6> purchase their favourite gift cards</h6>
 
+                                            </div>
                                         </div>
-                                        <div className="input-box">
-                                        <input type="checkbox" id="" data-toggle="modal" data-target="#exampleModalLong" name="EB points" value="gift card" />
-                                            <label for="EB points"><h4>Gift Cards</h4> </label>
-                                            <h6>
-                                                with the EB points ,employees can </h6>
-                                            <h6> purchase their favourite gift cards</h6>
-                                           
-                                        </div>
-                                    </div>
 
 
 
-                                </form>
+                                    </form>
 
 
-                            </div>
-                        </div>
-                        <div className="col-md-6 d-flex justify-content-center">
-                            <div class="right-side">
-
-                                <div>
-                                    <div className='top-div'>
-                                        <h2>Easy Way to create</h2>
-                                        <h2>Campaign</h2>
-                                    </div>
-                                    <div className='lorem-wrap' >
-                                        <div className='choto-box'></div>
-                                        <div><h6>Lorem ipsum dolor sit amet. 33 interno.</h6></div>
-                                    </div>
-                                    <div className='lorem-wrap' >
-                                        <div className='choto-box'></div>
-                                        <div><h6>Lorem ipsum dolor sit amet. 33 interno.</h6></div>
-                                    </div>
-                                    <div className='lorem-wrap' >
-                                        <div className='choto-box'></div>
-                                        <div><h6>Lorem ipsum dolor sit amet. 33 interno.</h6></div>
-                                    </div>
-                                </div>
-
-
-
-
-                                <div className='img-last'>
-                                    <img className='' src="./images/employer2/running.svg" alt="" />
                                 </div>
                             </div>
+                            <div className="col-md-6 d-flex justify-content-center">
+                                <div class="right-side">
+
+                                    <div>
+                                        <div className='top-div'>
+                                            <h2>Easy Way to create</h2>
+                                            <h2>Campaign</h2>
+                                        </div>
+                                        <div className='lorem-wrap' >
+                                            <div className='choto-box'></div>
+                                            <div><h6>Lorem ipsum dolor sit amet. 33 interno.</h6></div>
+                                        </div>
+                                        <div className='lorem-wrap' >
+                                            <div className='choto-box'></div>
+                                            <div><h6>Lorem ipsum dolor sit amet. 33 interno.</h6></div>
+                                        </div>
+                                        <div className='lorem-wrap' >
+                                            <div className='choto-box'></div>
+                                            <div><h6>Lorem ipsum dolor sit amet. 33 interno.</h6></div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div className='img-last'>
+                                        <img className='' src="./images/employer2/running.svg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> 
 
 
 
 
 
-            <div className='c-y-t-wrap'>
-                <div className='c-y-t'>
-                    <h2>Choose your Template</h2>
-                </div>
-            </div>
-            <div className='black-friday-wraper'>
-                <div>
-                    <div className='black-friday-card shadow'>
-                        <img className='img-fluid' src="./images/employer2/black-friday.svg" alt="" />
-
-                    </div>
-                    <div className='text-center'>
-                        <h2>Black Friday</h2>
+                <div className='c-y-t-wrap'>
+                    <div className='c-y-t'>
+                        <h2>Choose your Template</h2>
                     </div>
                 </div>
-                <div>
-                    <div className='black-friday-card shadow'>
-                        <img className='img-fluid' src="./images/employer2/black-friday.svg" alt="" />
+                <div className='black-friday-wraper'>
+                    <div>
+                        <div className='black-friday-card shadow'>
+                            <img className='img-fluid' src="./images/employer2/black-friday.svg" alt="" />
 
+                        </div>
+                        <div className='text-center'>
+                            <h2>Black Friday</h2>
+                        </div>
                     </div>
-                    <div className='text-center'>
-                        <h2>Black Friday</h2>
+                    <div>
+                        <div className='black-friday-card shadow'>
+                            <img className='img-fluid' src="./images/employer2/black-friday.svg" alt="" />
+
+                        </div>
+                        <div className='text-center'>
+                            <h2>Black Friday</h2>
+                        </div>
                     </div>
+                    <div>
+                        <div className='black-friday-card shadow'>
+                            <img className='img-fluid' src="./images/employer2/black-friday.svg" alt="" />
+
+                        </div>
+                        <div className='text-center'>
+                            <h2>Black Friday</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='black-friday-card shadow'>
+                            <img className='img-fluid' src="./images/employer2/black-friday.svg" alt="" />
+
+                        </div>
+                        <div className='text-center'>
+                            <h2>Black Friday</h2>
+                        </div>
+                    </div>
+
                 </div>
-                <div>
-                    <div className='black-friday-card shadow'>
-                        <img className='img-fluid' src="./images/employer2/black-friday.svg" alt="" />
-
-                    </div>
-                    <div className='text-center'>
-                        <h2>Black Friday</h2>
-                    </div>
-                </div>
-                <div>
-                    <div className='black-friday-card shadow'>
-                        <img className='img-fluid' src="./images/employer2/black-friday.svg" alt="" />
-
-                    </div>
-                    <div className='text-center'>
-                        <h2>Black Friday</h2>
-                    </div>
-                </div>
-
-            </div>
-
-            
 
 
 
 
 
-              
-               
+
+
+
+
 
                 <div className='mt-128'>
                     <div className='line-container d-flex'>

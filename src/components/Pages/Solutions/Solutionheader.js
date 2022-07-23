@@ -6,7 +6,7 @@ const Solutioncontainer = () => {
 
         <>
 
-            <div>
+            <div id='solution'>
                 <div className="bg-solution">
                     <div className="solution-overlay">
                         <div className="sol-header" >
@@ -21,7 +21,7 @@ const Solutioncontainer = () => {
                                 <p>Lorem ipsum dolor sit amet. 33 internos vitae aut erro</p>
 
                             </div>
-                            <div className="third">
+                            <div className="thirddd">
                             <button className='my-btn-1' onClick={()=>history.push('/bookdemo')} >Schedule Demo</button>
                             </div>
 

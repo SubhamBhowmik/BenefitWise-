@@ -18,7 +18,7 @@ const Pricingcardbox = ({pricingcard}) => {
 
 
                             <MDBCardTitle className='text-center p-5 text-muted'>{pricingcard.title}</MDBCardTitle>
-                            <div className='text-justify  text-muted ' style={{ padding: "20px" }}>
+                            <div className='text-justify  text-muted ' style={{ padding: "40px 20px" }}>
                                 <h6>Lorem, ipsum dolor sit s doloremque!
                                     \Lorem, ipsum dolor sit s doloremque!
                                     \Lorem, ipsum dolor sit s doloremque!

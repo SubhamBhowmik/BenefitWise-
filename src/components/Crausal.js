@@ -29,10 +29,10 @@ const Crausal = () => {
 
       pagination={{ clickable: true }}
       navigation={true}
-      // autoplay={{
-      //     delay: 3000,
-      //     disableOnInteraction: false,
-      //   }}
+      autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
       onSwiper={(swiper) => console.log(swiper)}
    
     >

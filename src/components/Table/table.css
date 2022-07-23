@@ -1,25 +1,22 @@
- .add-em {
+.add-em {
     box-sizing: border-box;
     margin-bottom: 117px;
-
-    width: 299px;
-    height: 71px;
-
+    width: 265px;
+    height: 57px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgba(128, 0, 128, 0.88);
-    border-radius: 50px;
+    border-radius: 46px;
     cursor: pointer;
 }
 
- .add-em h2 {
+.add-em h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-
-
+    margin-bottom: 0px;
+    font-size: 22px;
     color: rgba(255, 255, 255, 0.95);
 }
 
@@ -75,12 +72,11 @@
     border: 2px solid rgba(253, 150, 68, 0.94);
     border-radius: 20px;
 }
- .submit-cmp{
+.submit-cmp {
     box-sizing: border-box;
-
     position: absolute;
-    width: 337px;
-    height: 71px;
+    width: 318px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,14 +90,13 @@
     margin-bottom: 91px;
 
 }
- .submit-cmp h2{
+.submit-cmp h2 {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
 }
 @media (max-width:768px) {
     .add-em {

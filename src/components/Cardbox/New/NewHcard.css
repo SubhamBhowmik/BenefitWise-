@@ -1,11 +1,8 @@
-#newhcard .card--{
-
-    width: 521px;
-    height: 582px;
-   
-    
+#newhcard .card-- {
+    width: 465px;
+    height: 543px;
     background: white;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 25%);
     border-radius: 20px;
 }
 #newhcard .card-- .first-div{
@@ -36,9 +33,9 @@ color: rgba(0, 0, 0, 0.82);
     padding-top: 30px;
 }
 
-#newhcard .img-box{
-    height:208px;
-    width: 351px;
+#newhcard .img-box {
+    height: 169px;
+    width: 287px;
 }
 /* #newhcard .card-- .third-div{
     padding-top: 31px;
@@ -49,9 +46,9 @@ color: rgba(0, 0, 0, 0.82);
 } */
 #newhcard .card-- .third-div {
     padding-top: 40px;
-    padding-left: 65px;
+    padding-left: 35px;
     text-align: justify;
-    padding-right: 33px;
+    padding-right: 35px;
     height: 150px;
 }
 #newhcard  .fout-div{

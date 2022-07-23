@@ -3,7 +3,7 @@ import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, } from 'swiper';
-import ScrollBar from './ScrollBar';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade } from 'swiper';
 import Newswiper from './Newswiper'
@@ -48,7 +48,7 @@ const Epmulticardcarousel = () => {
 
   return (
     <>
-      <div className='mb-5 pl-64 ' id='monika' >
+      <div className='mbb-50 pl-64 ' id='monika' >
         <div className=''>
           <div className='first'>
 

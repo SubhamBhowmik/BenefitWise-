@@ -8,7 +8,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 52px;
+    font-size: 42px;
     line-height: 78px;
     /* identical to box height */
 
@@ -19,18 +19,12 @@
 
 .search-box-1 input {
     box-sizing: border-box;
-
-
-    padding-left: 10px;
+    padding-left: 21px;
     width: 550px;
-    height: 69px;
-
-
-
+    height: 62px;
     border: 1px solid rgba(128, 0, 128, 0.81);
     border-radius: 15px;
 }
-
 #catalog .search-box-1>input,
 #catalog .search-box-1 input::placeholder {
     font: 22px sans-serif;

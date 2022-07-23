@@ -15,14 +15,17 @@ const Epheader = () => {
             </div>
             <div className="ep-text ">
               <h1>Enjoy Perks</h1>
-              <h1> and amazing discounts  
-                                        </h1>
+              <h1> and amazing discounts
+              </h1>
               <h1>like never before.</h1>
             </div>
 
           </div>
           <div class="pri-header-right" style={{ width: "50%" }}>
-         <img className='ep-new-img' src="./images/emloyeeperks/new-hii.svg" alt="" />
+            <div className="pade">
+              <img className='ep-new-img' src="./images/emloyeeperks/new-hii.svg" alt="" />
+            </div>
+
           </div>
         </div>
 

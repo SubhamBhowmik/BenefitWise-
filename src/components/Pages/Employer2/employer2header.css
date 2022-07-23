@@ -2,7 +2,7 @@
     background: url('../../../../public/images/employer2/kylo.svg')  center/100% no-repeat;
     background-size: cover;
     object-fit: cover;
-
+   height: 70vh;
 
 }
 
@@ -17,8 +17,8 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
-
+    font-size: 42px;
+    margin-bottom: 0px;
     /* identical to box height, or 77% */
 
 
@@ -29,23 +29,20 @@
     font-family: 'PT Sans Caption';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     color: #A5A5A5;
 }
-
 .simple-text {
-    padding-top: 108px;
-    margin-bottom: 94px;
+    padding-top: 45px;
+    margin-bottom: 46px;
 }
 
 .simple-text h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 52px;
-
-
-    color: #000000;
+    font-size: 35px;
+    color: #fff;
 }
 
 .wallet-wrap {
@@ -56,9 +53,9 @@
 }
 
 .wallet-wrap .fa-4x {
-
-    color: orange;
-    margin-bottom: 26px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+    font-size: 52px;
 }
 
 .wallet-wrap h3 {
@@ -66,7 +63,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
 
 
     color: #000000;
@@ -82,23 +79,19 @@
 }
 
 .left-table {
-    width: 624px;
-    height: 861px;
-
-
+    width: 594px;
+    height: 688px;
     background: rgba(253, 150, 68, 0.07);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 10px;
 }
 
 .create-cmp {
-    margin-top: 54px;
+    margin-top: 39px;
     box-sizing: border-box;
     color: white;
-
-    width: 429px;
-    height: 78px;
-
+    width: 373px;
+    height: 61px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +103,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 22px;
 
 
     color: #FFFFFF;
@@ -135,19 +128,17 @@
 
 #em9 .input--box input {
     box-sizing: border-box;
-
     width: 424px;
-    height: 70px;
-
-
+    height: 45px;
     background: rgba(255, 255, 255, 0.76);
     border: 1px solid rgba(0, 0, 0, 0.53);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 10px;
+    padding-left: 10px;
 }
 
 .mt-70 {
-    margin-top: 70px;
+    margin-top: 53px;
 }
 
 .input-box input {
@@ -205,7 +196,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 42px;
+    font-size: 32px;
 
 
     color: #333333;
@@ -216,7 +207,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 0px;
     /* or 179% */
 
@@ -240,7 +231,7 @@
 }
 
 .img-last {
-    margin-top: 48px;
+    margin-top: 31px;
 }
 
 .mt-whole-row {
@@ -249,18 +240,14 @@
 
 .c-y-t {
     box-sizing: border-box;
-
-
-    width: 399px;
-    height: 71px;
+    width: 350px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
-
     background: rgba(253, 150, 68, 0.93);
     border-radius: 50px;
     cursor: pointer;
-
 }
 
 .c-y-t h2 {
@@ -341,16 +328,13 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 0px;
-
-
     color: #FFFFFF;
 }
-
 .a-t-wrap {
-    margin-top: 122px;
-    margin-bottom: 280px;
+    margin-top: 113px;
+    margin-bottom: 189px;
     display: flex;
     justify-content: center;
 }

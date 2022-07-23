@@ -2,14 +2,14 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 52px;
+    font-size: 42px;
 
 
     color: #000000;
 }
 
 .orderslide- {
-    margin-top: 228px;
+    margin-top: 118px;
 }
 .uu{
     margin-bottom: 44px;
@@ -55,7 +55,7 @@ color: rgba(0, 0, 0, 0.87);
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 33px;
+font-size: 22px;
 line-height: 51px;
 /* identical to box height, or 121% */
 
@@ -63,9 +63,10 @@ text-align: center;
 
 color: rgba(0, 0, 0, 0.9);
   }
-  .hui{
+  .hui {
+    margin-top: 46px;
     padding-left: 2rem;
-  }
+}
 @media (max-width:768px) {
     .line-container {
         height: 15px;

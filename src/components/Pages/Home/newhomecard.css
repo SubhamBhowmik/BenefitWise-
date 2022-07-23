@@ -24,7 +24,7 @@
     margin-top: 95px;
     display: flex;
     justify-content: left;
-    padding-left: 33px;
+    padding-left: 92px;
 }
 
 .new-card- {
@@ -114,7 +114,7 @@
 .new-card-wrap {
     display: flex;
     justify-content: center;
-    gap: 169px
+    gap: 155px
 }
 
 .new-height {

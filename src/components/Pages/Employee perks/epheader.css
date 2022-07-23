@@ -63,7 +63,9 @@
   background-size: cover;
   height: 105vh;
 }
-
+.pade{
+    padding: 40px 20px;
+}
 .ep-text  {
     margin-top: 20px;
 }
@@ -71,8 +73,8 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 43px;
-    line-height: 65px;
+    font-size: 42px;
+    line-height: 52px;
     color: #FFFFFF;
 }
 .ep-new-img{
@@ -83,6 +85,9 @@
 
 /* 😒😒😒😒😒😒😒😒😒 */
 @media (max-width:768px) {
+    .pade{
+        padding: 20px 0px;
+    }
     .ep-bg {
 
 
@@ -117,8 +122,12 @@
         left: 377px;
     }
     .ep-bg .fa-4x {
+        padding-top: 20px;
         margin-top: 12px;
         font-size: 2em;
+    }
+    .ep-text {
+        margin-top: 10px;
     }
     
  

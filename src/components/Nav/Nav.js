@@ -45,8 +45,8 @@ function Navbar({ history }) {
           </Link>
 
           <div className=' input-search' id="navbarNav">
-            <input type="" className='' placeholder='search' />
-            <i class="bi bi-search"></i>
+            {/* <input type="" className='' placeholder='search' />
+            <i class="bi bi-search"></i> */}
           </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

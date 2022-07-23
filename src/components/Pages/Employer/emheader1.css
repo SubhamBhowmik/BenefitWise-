@@ -7,7 +7,7 @@
 
 #em-header1 .pri-header-left {
     margin-top: 0px;
-    margin-left: 83px;
+    margin-left: 33px;
 }
 
 #em-header1 .pri-header-right {
@@ -47,20 +47,25 @@
 }
 
 #em-header1 .pri-header-left .free-trial-btn {
+    margin-top: 30px;
     width: 200px;
-    height: 60px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(235, 135, 0, 1);
-    border-radius: 15px;
+    border-radius: 11px;
+}
+#em-header1 .pri-header-left {
+    width: 50%;
+    padding: 2rem 4em;
 }
 
 #em-header1 .pri-header-left .free-trial-btn h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
   margin-bottom: 0px;
     /* identical to box height, or 280% */
 
@@ -77,12 +82,9 @@
 
 #em-header1 .vd-box {
     position: relative;
-    margin-top: 226px;
-    width: 825px;
-    height: 491px;
-
-
-
+    margin-top: 117px;
+    width: 661px;
+    height: 360px;
     border-radius: 20px;
 }
 
@@ -119,8 +121,8 @@
 }
 
 .second-section {
-    margin-top: 157px;
-    margin-bottom: 86px;
+    margin-top: 121px;
+    margin-bottom: 46px;
 }
 
 #em-header1 .em-boxex {
@@ -171,15 +173,15 @@
 
 .s-c-u {
     text-align: center;
-    margin-top: 330px;
+    margin-top: 138px;
 }
 
 .s-c-u h2 {
-    margin-bottom: 58px;
+    margin-bottom: 25px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 52px;
+    font-size: 42px;
 
     text-align: center;
 
@@ -187,16 +189,11 @@
 }
 
 .h6-text {
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-
-
+    font-size: 18px;
     color: #000000;
-
-
 }
 
 .little-card {
@@ -246,7 +243,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 33px;
 
     color: #000000;
@@ -295,7 +292,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 43px;
+    font-size: 42px;
     line-height: 51px;
     color: rgba(0, 0, 0, 0.83);
 }

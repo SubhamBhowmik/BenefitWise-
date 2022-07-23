@@ -2,6 +2,8 @@ import React from 'react'
 import './employer3header.css'
 import Table from '../../Table/Table'
 import Table2 from '../../Table/Table2'
+import { Fade } from 'react-reveal'
+
 const Employer3header = () => {
 
     return (
@@ -17,14 +19,21 @@ const Employer3header = () => {
 
                         <div class="pri-header-left" style={{ width: "50%" }}>
 
-                            <img src="./images/employer3/burger.svg" class="food-img-mt  img-fluid" alt="Web Development" />
+                            <div className='d-flex justify-content-center align-items-center'>
+                                <img src="./images/employer3/burger.svg" class="food-img-mt  img-food" alt="Web Development" />
+
+                            </div>
+
 
 
                         </div>
                         <div class="pri-header-right new-" style={{ width: "50%" }}>
                             <div className="text-cont">
-                                <h1>Food Card</h1>
-                                <h6>Saving Tax now easily </h6>
+                                <Fade right duration={2000}>
+                                    <h1>Food Card</h1>
+                                    <h6>Saving Tax now easily </h6>
+                                </Fade>
+
                             </div>
                         </div>
                     </div>
@@ -92,13 +101,13 @@ const Employer3header = () => {
 
 
                 <div className="container"  >
-          
+
                     <div className="lomba-text">
                         <h1>Update your Wallet for more benefits</h1>
                     </div>
                     <div className='d-flex justify-content-center' style={{ position: "relative" }}>
 
-                     
+
                         <div className="redcard-wrap">
 
                             <div className="left" style={{ width: "50%" }}  >
@@ -127,16 +136,16 @@ const Employer3header = () => {
 
 
                 </div>
-                <div style={{position: "relative"}}>
-                <img className='ora-img' src="./images/Foodcardwallet/orange.svg" alt="" />
+                <div style={{ position: "relative" }}>
+                    <img className='ora-img' src="./images/Foodcardwallet/orange.svg" alt="" />
                 </div>
-                <div className='cont-ora' style={{ position: "relative",overflow:"hidden" }}>
+                <div className='cont-ora' style={{ position: "relative", overflow: "hidden" }}>
 
                     <img className='vio-img' src="./images/Foodcardwallet/violet.svg" alt="" />
 
                 </div>
-                  <Table/>
-                  <Table2/>
+                <Table />
+                <Table2 />
             </section>
 
 

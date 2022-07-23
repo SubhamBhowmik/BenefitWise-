@@ -22,107 +22,111 @@ const Solutioncontainer = () => {
         title1: "Sales Incentivization",
         title2: "",
         subtitle: "All set, Target met? Reward your employees each time they meet business requirements. ",
-        bg:"rgba(14, 90, 205, 0.36)"
-      }
-      const card2= {
+        bg: "rgba(14, 90, 205, 0.36)"
+    }
+    const card2 = {
         img: "./images/cardholder/right1.png",
         title1: "Corporate gifting ",
         title2: "",
         subtitle: "A variety of Gift coupons and vouchers are available to maintain your business relations.",
-        bg:"rgba(14, 90, 205, 0.36)"
-      }
-      const card3 = {
+        bg: "rgba(14, 90, 205, 0.36)"
+    }
+    const card3 = {
         img: "./images/cardholder/1.png",
         title1: "Employee perks ",
         title2: " ",
         subtitle: " Browse more than 500+ online and offline options to motivate and reward your employees.",
-        bg:"rgba(14, 90, 205, 0.36)"
-      }
-      const card4 = {
+        bg: "rgba(14, 90, 205, 0.36)"
+    }
+    const card4 = {
         img: "./images/cardholder/2.png",
         title1: "Rewards & recognition ",
         title2: "programme",
         subtitle: " Reward your employees for their dedication and constant efforts.",
-        bg:"rgba(14, 90, 205, 0.36)"
-      }
-      const card5 = {
+        bg: "rgba(14, 90, 205, 0.36)"
+    }
+    const card5 = {
         img: "./images/cardholder/3.png",
         title1: "Food Card",
         title2: "",
         subtitle: " We offer food cards that can be availed on food applications as well as Food Outlets.",
-        bg:"rgba(14, 90, 205, 0.36)"
-      }
+        bg: "rgba(14, 90, 205, 0.36)"
+    }
 
     return (
 
 
         <>
             <section >
-                <div className="container" id='cz' smooth={true}>
+                <div className="" id='cz' smooth={true}>
                     <div class="text-center p-2 mt-71 ">
                         <h1 className='our-off'  >Our Offerings</h1>
                     </div>
-
-                    <div class="sol-grid-container">
-                        <div class="sol-item1">
-                          <NewSolcard card={card1}/>
-                        </div>
-                        <div class="sol-item2">
-                            <div className="p-text kylo ">
-                                <p>Boost your channel's growth with our promotion program. Reach a wider audience and amplify your profits. Providing the work partners with gifts, appreciating their work and also providing them with benefits like employees can improve the relations between the company and the partners. 
+                    <div className='pad-left'>
 
 
-                                </p>
+                        <div class="sol-grid-container">
+                            <div class="sol-item1">
+                                <NewSolcard card={card1} />
                             </div>
-                        </div>
-                        <div class="sol-item3">
-                            <div className="p-text kylo wid">
-                                <p>Gift your employees rewards in the form of vouchers to drive employee productivity, boost morale, express gratitude for their hard work, and enhance your goodwill and the company's reputation!
+                            <div class="sol-item2">
+                                <div className="p-text kylo ">
+                                    <p>Boost your channel's growth with our promotion program. Reach a wider audience and amplify your profits. Providing the work partners with gifts, appreciating their work and also providing them with benefits like employees can improve the relations between the company and the partners.
 
 
-                                </p>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="sol-item4">
-                        <NewSolcard card={card2}/>
-                        </div>
-
-                        <div class="sol-item5">
-                        <NewSolcard card={card3}/>
-                        </div>
-                        <div class="sol-item6">
-                            <div className="p-text kylo">
-                                <p>We know it's important to take care of your people, which is why we offer all the support and amenities that help make their experience awesome. From free coupons in our employee perks package to free vouchers, we have got you covered!
+                            <div class="sol-item3">
+                                <div className="p-text kylo wid">
+                                    <p>Gift your employees rewards in the form of vouchers to drive employee productivity, boost morale, express gratitude for their hard work, and enhance your goodwill and the company's reputation!
 
 
-                                </p>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="sol-item7">
-                            <div className="p-text kylo wid">
-                                <p>Employees are the backbone of any company and it is our goal to show them how much they mean. We do this through monthly rewards and year-end awards ceremonies where we thank all those who have gone above and beyond for their hard work!
-
-                                </p>
+                            <div class="sol-item4">
+                                <NewSolcard card={card2} />
                             </div>
-                        </div>
-                        <div class="sol-item8">
-                        <NewSolcard card={card4}/>
-                        </div>
-                        <div class="sol-item9">
-                        <NewSolcard card={card5}/>
-                        </div>
-                        <div class="sol-item10">
-                            <div className="p-text kylo">
-                                <p>After you've had enough of the same old food at your local cart, come to our spot and try some really unique options! We have something that will make even an experienced eater think twice.
 
-
-
-                                </p>
+                            <div class="sol-item5">
+                                <NewSolcard card={card3} />
                             </div>
+                            <div class="sol-item6">
+                                <div className="p-text kylo">
+                                    <p>We know it's important to take care of your people, which is why we offer all the support and amenities that help make their experience awesome. From free coupons in our employee perks package to free vouchers, we have got you covered!
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sol-item7">
+                                <div className="p-text kylo wid">
+                                    <p>Employees are the backbone of any company and it is our goal to show them how much they mean. We do this through monthly rewards and year-end awards ceremonies where we thank all those who have gone above and beyond for their hard work!
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sol-item8">
+                                <NewSolcard card={card4} />
+                            </div>
+                            <div class="sol-item9">
+                                <NewSolcard card={card5} />
+                            </div>
+                            <div class="sol-item10">
+                                <div className="p-text kylo">
+                                    <p>After you've had enough of the same old food at your local cart, come to our spot and try some really unique options! We have something that will make even an experienced eater think twice.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+
+
                         </div>
-
-
                     </div>
+
 
                 </div>
 

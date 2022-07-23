@@ -2,6 +2,8 @@ import React from 'react'
 import './Employer4header.css'
 import Switch from '@mui/material/Switch';
 import Catalog from './Catalog';
+import { Fade } from 'react-reveal';
+
 const Employer4header = () => {
     return (
         <>
@@ -21,8 +23,12 @@ const Employer4header = () => {
                         </div>
                         <div class="pri-header-rightt" style={{ width: "50%" }}>
                             <div className="text-cont">
-                                <h1>Employee Perks</h1>
-                                <div className='s-text'>Saving Tax now easily </div>
+                                <Fade right durartion={2000}>
+                                    <h1>Employee Perks</h1>
+                                    <div className='s-text'>Saving Tax now easily </div>
+                                </Fade>
+
+
                             </div>
                         </div>
                     </div>
@@ -169,9 +175,9 @@ const Employer4header = () => {
 
                 <div className="d-flex justify-content-center">
                     <div className="data-graph">
-                       
-                            <img className='img-fluid' src="./images/employer4/data-graph.svg" alt="" />
-                       
+
+                        <img className='img-fluid' src="./images/employer4/data-graph.svg" alt="" />
+
                         <div className='texty'>
                             <h1>Lets See Quaterly Graphs</h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

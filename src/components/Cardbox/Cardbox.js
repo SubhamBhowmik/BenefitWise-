@@ -2,7 +2,7 @@ import React from 'react';
 import './Cardbox.css'
 export default function App() {
   return (
-    <div className='d-flex justify-content-center mb-5 mt-97 ' id='test-card'>
+    <div className='d-flex justify-content-center mbb-14 mt-97 ' id='test-card'>
 
       <div className='testi-card shadow' style={{ position: "relative", overflow: "hidden" }}>
          <div className='dot'  >"</div>

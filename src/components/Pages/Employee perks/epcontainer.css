@@ -50,17 +50,16 @@
 }
 
 .perks-text {
-    margin-top: 142px;
-    margin-bottom: 150px;
+    margin-top: 101px;
+    margin-bottom: 99px;
 }
-
 .keep {
     background:  #FAF5FA;;
     padding: 10px;
 }
 
 .keep-wrap {
-    margin-top: 330px;
+    margin-top: 160px;
 }
 
 .search-box {
@@ -68,7 +67,7 @@
     box-sizing: border-box;
     padding-left: 21px;
     width: 504px;
-    height: 69px;
+    height: 54px;
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.89);
@@ -94,9 +93,9 @@
     font-size: 30px;
 }
 
-#ep .search-box>input,
-#ep .search-box input::placeholder {
-    font: 30px sans-serif;
+#ep .search-box>input, #ep .search-box input::placeholder {
+    font: 18px sans-serif;
+    padding-left: 8px;
 }
 
 .search-box i .fa-solid,
@@ -157,7 +156,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 32px;
 
 
 
@@ -171,10 +170,12 @@
 }
 
 .play img {
-    width: 840px;
-    height: 479px;
+    width: 705px;
+    height: 414px;
 }
-
+.mbb-50{
+    margin-bottom: 69px;
+}
 .left-lorem {
     margin-left: 14rem;
 }
@@ -190,7 +191,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 27px;
 }
 
 #monika .first h2 {
@@ -218,7 +219,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 42px;
 
 
     color: rgba(0, 0, 0, 0.85);

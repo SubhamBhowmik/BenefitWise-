@@ -2,7 +2,7 @@
      font-family: 'Poppins';
      font-style: normal;
      font-weight: 600;
-     font-size: 64px;
+     font-size: 42px;
      line-height: 20px;
      /* identical to box height, or 31% */
 
@@ -13,34 +13,31 @@
 
  #newout .first-p {
      padding-left: 91px;
-     padding-top: 201px;
+     padding-top: 60px;
  }
 
  #newout .gray-box- {
-     width: 663px;
-     height: 329px;
+    width: 608px;
+    height: 212px;
+    background: #F5F5F5;
+}
 
-
-     background: #F5F5F5;
- }
-
- #newout .kada-bx {
-     position: absolute;
-     width: 504px;
-     height: 104.85px;
-
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     border: 3.60859px dashed #333341;
- }
+#newout .kada-bx {
+    position: absolute;
+    width: 446px;
+    height: 74.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3.60859px dashed #333341;
+}
 
  #newout .kada-bx h5 {
 
      font-family: 'Poppins';
      font-style: normal;
      font-weight: 600;
-     font-size: 24px;
+     font-size: 20px;
      line-height: 36px;
      text-align: center;
      margin-bottom: 0px;
@@ -48,21 +45,19 @@
  }
 
  #newout .numb h4 {
-     font-family: 'Lato';
-     font-style: normal;
-     font-weight: 700;
-     font-size: 48px;
-     line-height: 23px;
-     /* or 47% */
-
-     color: #000000;
- }
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 23px;
+    color: #000000;
+}
 
  #newout .numb h5 {
      font-family: 'Poppins';
      font-style: normal;
      font-weight: 500;
-     font-size: 36px;
+     font-size: 22px;
      line-height: 54px;
 
      letter-spacing: -0.005em;
@@ -72,28 +67,28 @@
 
  #newout .sec-2-wrap {
      display: flex;
-     margin-top: 109px;
+     margin-top: 69px;
      padding-left: 101px;
      padding-right: 101px;
      gap: 100px;
  }
 
  #newout .numb .b {
-     margin-top: 34px;
-     padding-left: 187px;
- }
+    margin-top: 15px;
+    padding-left: 105px;
+}
 
  #newout .left-seg {
      flex: 1;
  }
 
  #newout .mt-59 {
-     margin-top: 59px;
- }
+    margin-top: 24px;
+}
 
- #newout .mt-106 {
-     margin-top: 106px;
- }
+#newout .mt-106 {
+    margin-top: 27px;
+}
 
  .numb h6 {
      font-family: 'Lato';
@@ -106,19 +101,16 @@
 
      color: #008080;
  }
-
  .mt-42 {
-     margin-top: 42px;
-     margin-bottom: 49px;
- }
-
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
  .cui h2 {
-     font-family: 'Poppins';
-     font-style: normal;
-     font-weight: 700;
-     font-size: 48px;
-     line-height: 72px;
-     text-align: center;
-
-     color: rgba(0, 0, 0, 0.9);
- }
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 72px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+}

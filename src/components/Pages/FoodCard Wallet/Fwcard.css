@@ -1,16 +1,11 @@
 #fwcard .fw-card-box {
     box-sizing: border-box;
-
-
-    width: 548px;
-    height: 501px;
-
-
+    width: 519px;
+    height: 437px;
     background: #FFFFFF;
     border: 7px solid rgba(253, 150, 68, 0.9);
     border-radius: 20px;
 }
-
 #fwcard .fw-card-box .expire-card {
 
     width: 148px;
@@ -42,42 +37,34 @@
 }
 
 #fwcard .fw-card-box .pizza-hut {
-    margin-left: 72px;
+    margin-left: 54px;
     margin-top: 36px;
 }
 
 #fwcard .fw-card-box .text-content {
-    padding-left: 37px;
-    padding-right: 17px;
+    padding-left: 32px;
+    padding-right: 30px;
     margin-top: 37px;
     text-align: justify;
 }
 
 #fwcard .fw-card-box .text-content p {
-
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
-
-    /* or 182% */
-
-
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.74);
 }
 
 #fwcard .fw-card-box .redeem {
     cursor: pointer;
-    margin-top: 59px;
+    margin-top: 38px;
     color: white;
-    width: 279px;
-    height: 68px;
+    width: 241px;
+    height: 57px;
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: rgba(128, 0, 128, 0.89);
     border-radius: 20px;
 }
@@ -86,11 +73,10 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
-
+    font-size: 22px;
+    margin-bottom: 0px;
     color: #FFFFFF;
 }
-
 
 
 

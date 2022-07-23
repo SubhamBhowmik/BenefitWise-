@@ -82,7 +82,7 @@ const Graycardcontainer = () => {
           <div className='bene' ><h1>Benefits For</h1></div>
         </div>
 
-         <div className='text-center m-3'>
+         <div className='text-center '>
 
           <label class="switch " >
             <input type="checkbox" />

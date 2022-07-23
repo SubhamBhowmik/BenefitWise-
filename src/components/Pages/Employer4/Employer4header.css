@@ -3,13 +3,14 @@
     background: url('../../../../public/images/employer4/vg.svg') center/100% no-repeat;
     background-size: cover;
     object-fit: cover;
+    height: 70vh;
 }
 
 .s-text {
     font-family: 'PT Sans Caption';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 22px;
 
 
 
@@ -59,7 +60,7 @@
 }
 
 .suno-na .left-box {
-    padding-top: 102px;
+    padding-top: 50px;
     padding-left: 38px;
     width: 607px;
     height: 150px;
@@ -198,7 +199,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 52px;
+    font-size: 42px;
 
 
     color: #000000;
@@ -324,7 +325,7 @@
 }
 
 .samsung-wrap {
-    padding: 0px 47px;
+    padding: 0px 57px;
     display: flex;
     gap: 43px;
 }
@@ -352,8 +353,8 @@
 }
 
 .whole-sam-wrap {
-    margin-top: 299px;
-    margin-bottom: 340px;
+    margin-top: 187px;
+    margin-bottom: 255px;
 }
 
 .sam-left {
@@ -372,7 +373,8 @@
     font-family: 'PT Sans Caption';
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
+    margin-bottom: 0px;
+    font-size: 42px;
 
 
 

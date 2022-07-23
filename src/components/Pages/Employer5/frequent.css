@@ -10,33 +10,33 @@ text-align: center;
 
 color: #000000;
 }
-.freq  {
-    margin-top: 267px;
-    margin-bottom: 50px;
-}
-.qus{
-    margin-top: 56px;
-    width: auto;
-height: 84px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding-left: 25px;
-padding-right: 35px;
 
-background: rgba(253, 150, 68, 0.11);
-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+.freq {
+    margin-top: 153px;
+    margin-bottom: 69px;
 }
-.cont-qus{
-    padding-left: 51px;
-    padding-right: 48px;
+.qus {
+    margin-top: 45px;
+    width: auto;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 36px;
+    padding-right: 35px;
+    background: rgba(253, 150, 68, 0.11);
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+}
+.cont-qus {
+    padding-left: 75px;
+    padding-right: 79px;
     margin-bottom: 99px;
 }
 .qus h6{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
+font-size: 22px;
 line-height: 58px;
 margin-bottom: 0px;
 
