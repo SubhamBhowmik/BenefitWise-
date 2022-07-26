@@ -41,6 +41,7 @@ const Testimonial = () => {
 
        ssr={true}
         infinite={true}
+   
         autoPlay={true}
         autoPlaySpeed={2000}
         keyBoardControl={true}
